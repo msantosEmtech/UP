@@ -428,15 +428,21 @@
             <div class="pb-5 row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="heading">
-                        <h5 class="font-Novbold">Conoce los diferentes tipos de <span style="font-style: italic;">career
-                                path</span> que
-                            <span style="color: #25C7D9;">Salesforce tiene
-                                para ti.</span><br>
-                            Estamos seguros de que hay una ruta específica para tus habilidades y gustos.
+                        <h5 class="font-Saravekbold">Posterior a este curso, 
+                            estarás listo para continuar tu proceso en alguno 
+                            de los career paths que te ofreceremos para convertirte en 
+                            un experto en Salesforce.
                         </h5>
-                        <br>
-                        <h2 class="font-Novbold" style="color: #00215B;">
-                            Cursos de especialización
+                    </div>
+                </div>
+            </div>
+            <div class="pb-5 row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="heading">
+                        <h2 class="font-Laurentiareg" style="color: #000;">
+                        <b>Conoce los diferentes tipos de <span style="font-style: italic;">career
+                                path</span> queSalesforce tiene
+                                para ti.</b><br>
                         </h2>
                     </div>
                 </div>
@@ -446,17 +452,17 @@
                     <div class="center-tabs">
                         <ul id="tabs" class="nav nav-tabs">
                             <li class="nav-item">
-                                <a href="" data-target="#tabSA" data-toggle="tab" class="active nav-link">
+                                <a href="" data-target="#tabSA" data-toggle="tab" class="active nav-link font-Saravekbold">
                                     Salesforce Administrator
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="" data-target="#tabSBA" data-toggle="tab" class="nav-link">
+                                <a href="" data-target="#tabSBA" data-toggle="tab" class="nav-link font-Saravekbold">
                                     Salesforce Business Analyst
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="" data-target="#tabSD" data-toggle="tab" class="nav-link">
+                                <a href="" data-target="#tabSD" data-toggle="tab" class="nav-link font-Saravekbold">
                                     Salesforce Developer
                                 </a>
                             </li>
