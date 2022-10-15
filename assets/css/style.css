@@ -4641,7 +4641,7 @@ body,
   padding-top:13px;
   position: relative;
   z-index: 1;
-  background-color: #0B2A62;
+  background-color: #B9975B;
   border-radius: 0px 0px 10px 10px;
 }
 
@@ -7293,7 +7293,7 @@ ul.listaTab li{
   content: "\f00c";
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
-  color: #25C7D9;
+  color: #8B0637;
   font-size: 20px;
 }
 
@@ -7318,12 +7318,12 @@ ul.listaTab li{
 .seccion-beneficios::before {
   position: absolute;
   left: 10%;
-  top: 89%;
+  top: -5%;
   bottom: 50px;
   content: "";
   width: 90px;
   height: 90px;
-  background-image: url('../img/home/puntosAzulesBeneficios.png');
+  background-image: url('../img/home/puntosCafeBeneficios.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -7331,11 +7331,11 @@ ul.listaTab li{
 .seccion-beneficios::after {
   position: absolute;
   left: 75%;
-  top: -5%;
+  top: 95%;
   content: "";
   width: 90px;
   height: 90px;
-  background-image: url('../img/home/puntosAzulesBeneficios.png');
+  background-image: url('../img/home/puntosCafeBeneficios.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7715,4 +7715,10 @@ ul.containerVertical li:nth-child(2) div.imgIconoVertical {
     border-radius: 10px !important;
     border: none !important;
     box-shadow: 0px 25px 30px rgba(126, 126, 126, 0.15) !important;
+}
+
+.img-beneficiosDerecha{
+  max-width: max-content;
+    margin-left: -15rem;
+    width: 720px;
 }

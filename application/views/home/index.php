@@ -476,16 +476,9 @@
                                                 <img class="palomaIntoTarjeta" src="<?= base_url('assets/img/home/palomita.png') ?>" style="width: 40%;">
                                             </div>
                                             <div class="col-lg-10">
-                                                <p class="pr-3">
-                                                    <span class="font-Novbold" style="color: #25C7D9;">El Administrador
-                                                        de Salesforce</span> 
-                                                    es un experto 
-                                                    en darle vida a la innovación tecnológica de las 
-                                                    herramientas de Salesforce. Asume su rol, en el 
-                                                    alto impacto de la automatización de procesos 
-                                                    comerciales complejos, eficientando los 
-                                                    tiempos de servicio al cliente, a través de los 
-                                                    diversos usos de la plataforma.
+                                                <p class="pr-3 font-Saravekreg">
+                                                El Administrador de <b>Salesforce</b> es un experto en darle 
+                                                vida a la innovación tecnológica de las herramientas de Salesforce. 
                                                 </p>
                                             </div>
                                         </div>
@@ -494,17 +487,25 @@
                                                 <img class="palomaIntoTarjeta" src="<?= base_url('assets/img/home/palomita.png') ?>" style="width: 40%;">
                                             </div>
                                             <div class="col-lg-10">
-                                                <p class="pr-3">
-                                                    Gestiona a los usuarios y brinda vistas
-                                                    personalizadas por medio de tableros y
-                                                    reportes para <span class="font-Novbold" style="color: #25C7D9;">optimizar los procesos internos
-                                                        de la compañía.</span>
+                                                <p class="pr-3 font-Saravekreg">
+                                                Asume su rol, en el alto impacto de la automatización de procesos comerciales complejos, eficientando los tiempos de servicio al cliente, a través de los diversos usos de la plataforma.  
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row row-tab-cursos">
+                                            <div class="col-lg-2 colPalomaIntoTarjeta" style="margin-right: -2rem;">
+                                                <img class="palomaIntoTarjeta" src="<?= base_url('assets/img/home/palomita.png') ?>" style="width: 40%;">
+                                            </div>
+                                            <div class="col-lg-10">
+                                                <p class="pr-3 font-Saravekreg">
+                                                Gestiona a los usuarios y brinda vistas personalizadas por medio 
+                                                de tableros y reportes para optimizar los <b>procesos internos de la compañía.</b> 
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-lg-12">
-                                                <a class="btn circle btn-sm btn-naranja wow fadeInUp" data-wow-duration="1.8s" href="<?= base_url('SalesforceAdministrator') ?>/?s=<?=$source?>&m=<?=$medium?>&c=<?=$canal?>" style="border-radius: 16px;visibility: visible; animation-duration: 1.8s; animation-name: fadeInUp;margin-left:3rem;">Ver curso</a>
+                                                <a class="btn circle btn-sm btn-naranja wow fadeInUp" data-wow-duration="1.8s" href="<?= base_url('SalesforceAdministrator') ?>/?s=<?=$source?>&m=<?=$medium?>&c=<?=$canal?>" style="border-radius: 16px;visibility: visible; animation-duration: 1.8s; animation-name: fadeInUp;margin-left:3rem;">Aplicar</a>
                                             </div>
                                         </div>
                                         
@@ -555,10 +556,8 @@
                                                 <img class="palomaIntoTarjeta" src="<?= base_url('assets/img/home/palomita.png') ?>" style="width: 40%;">
                                             </div>
                                             <div class="col-lg-10">
-                                                <p class="pr-3">
-                                                    <span class="font-Novbold" style="color: #25C7D9;">El experto analista de datos,</span> ayudará a guiar a
-                                                    las compañías a mejorar los procesos de
-                                                    negocio con éxito.
+                                                <p class="pr-3 font-Saravekreg">
+                                                El experto analista de datos, guia a las compañías a mejorar los procesos de negocio con éxito. 
                                                 </p>
                                             </div>
                                         </div>
@@ -567,11 +566,10 @@
                                                 <img class="palomaIntoTarjeta" src="<?= base_url('assets/img/home/palomita.png') ?>" style="width: 40%;">
                                             </div>
                                             <div class="col-lg-10">
-                                                <p class="pr-3">
-                                                    El rol de <span class="font-Novbold" style="color: #25C7D9;">Salesforce Business Analyst,</span>
-                                                    documenta y analiza los requisitos en torno a
-                                                    los desafíos de negocio y producen soluciones
-                                                    basadas en el análisis profundo de los datos.
+                                                <p class="pr-3 font-Saravekreg">
+                                                El rol de <b>Salesforce Business Analyst</b> documenta y analiza los requisitos 
+                                                en torno a los desafíos de negocio y produce soluciones basadas en el 
+                                                análisis profundo de los datos.
                                                 </p>
                                             </div>
                                         </div>
@@ -580,11 +578,10 @@
                                                 <img class="palomaIntoTarjeta" src="<?= base_url('assets/img/home/palomita.png') ?>" style="width: 40%;">
                                             </div>
                                             <div class="col-lg-10">
-                                                <p class="pr-3">
-                                                    Con un enfoque metódico, es capaz de
-                                                    modelizar datos, diagnósticos y análisis que
-                                                    ayuden a tomar las mejores <span class="font-Novbold" style="color: #25C7D9;">rutas de éxito y
-                                                        marcar la diferencia en el mundo empresarial.</span>
+                                                <p class="pr-3 font-Saravekreg">
+                                                Con un enfoque metódico, es capaz de modelizar datos, diagnósticos
+                                                y análisis, que ayuden a tomar las mejores rutas de éxito 
+                                                y marcar la <b>diferencia en el mundo empresarial.</b> 
                                                 </p>
                                             </div>
                                         </div>
@@ -641,10 +638,12 @@
                                                 <img class="palomaIntoTarjeta" src="<?= base_url('assets/img/home/palomita.png') ?>" style="width: 40%;">
                                             </div>
                                             <div class="col-lg-10">
-                                                <p class="pr-3">
-                                                    <span class="font-Novbold" style="color: #25C7D9;">El desarrollador de Salesforce</span> es un profesional que conoce a profundidad el funcionamiento
-                                                    de la arquitectura de Salesforce; desde la creación de bases de datos, hasta programación 
-                                                    con Apex y el desarrollo de interfaces de usuario profesionales en Visualforce.
+                                                <p class="pr-3 font-Saravekreg">
+                                                El desarrollador de Salesforce es un profesional 
+                                                que conoce a profundidad el funcionamiento de la 
+                                                arquitectura de Salesforce; <b>desde la creación de 
+                                                bases de datos, hasta programación con Apex y el 
+                                                desarrollo de interfaces de usuario profesionales en Visualforce.</b> 
                                                 </p>
                                             </div>
                                         </div>
@@ -653,10 +652,10 @@
                                                 <img class="palomaIntoTarjeta" src="<?= base_url('assets/img/home/palomita.png') ?>" style="width: 40%;">
                                             </div>
                                             <div class="col-lg-10">
-                                                <p class="pr-3">
-                                                    Combina su talento de desarrollador, con la finalidad de 
-                                                    crear plataformas y aplicaciones, que brinden diversas 
-                                                    soluciones tecnológicas personalizadas.
+                                                <p class="pr-3 font-Saravekreg">
+                                                Combina su talento de desarrollador, con la finalidad 
+                                                de crear <b>plataformas y aplicaciones, 
+                                                que brinden diversas soluciones tecnológicas personalizadas.</b> 
                                                 </p>
                                             </div>
                                         </div>
@@ -718,13 +717,12 @@
                 <div class="row">
                     <div class="col-lg-5 single-item text-left" style="padding-top: 10rem;">
                         <div class="pb-5 item-custom">
-                            <h2 class="font-Novbold tituloBeneficiosh2" style="color: #00215B;text-align: left;">Característas del<br>
-                                programa</h2>
-                            <h6 class="font-Novreg parrafoTituloBeneficios" style="color: #333333; text-align: left;font-weight:700;">Enfoca tus habilidades y
-                                competencias<br>
-                                en la especialización de los cursos que<br>
-                                EmTech ofrece para tu certificación en<br>
-                                los <i>career paths</i> más importantes del<br> ecosistema <span style="color: #25C7D9;" class="font-Novbold">Salesforce.</span></h6>
+                            <h2 class="font-Laurentiareg tituloBeneficiosh2" style="color: #000000;text-align: left;"><b>Característas del</b> <br>
+                                <b>programa</b></h2>
+                            <h6 class="font-Saravekreg parrafoTituloBeneficios" style="color: #333333; text-align: left;">
+                            Reconocerás los beneficios, innovaciones y<br>
+                            alcances exponenciales de iniciar una <br>
+                            <b>carrera en Salesforce.</b>
                         </div>
                         <a class="btn circle btn-sm btn-naranja wow fadeInUp btnVerCursoBeneficios" data-wow-duration="1.8s" href="#cursos" style="border-radius: 16px;visibility: visible; animation-duration: 1.8s; animation-name: fadeInUp;">Ver cursos</a>
                     </div>
@@ -739,17 +737,16 @@
                                                     <img class="pt-2 pb-3 mx-auto d-block imgIconosTarjetasDescuadradas" id="iconModulo1" style="cursor: pointer;width: 100%;" src="<?= base_url('assets/img/home/iconoCasosPracticos.svg') ?>" alt="Icono" />
                                                 </div>
                                                 <div class="col-lg-9 text-left tituloTarjetasDescuadradas" style="padding-left: 0px;">
-                                                    <h5 class="font-Novbold" style="color: #00215B;padding-top: 1rem;">Casos Prácticos</h5>
+                                                    <h5 class="font-Laurentiareg" style="color: #000000;padding-top: 1rem;font-weight: 600;">Casos de éxito</h5>
                                                 </div>
                                             </div>
                                             <br>
                                             <div class="info parrafoTarjetasDescuadradas">
-                                                <p style="line-height: 20px;color:rgba(0, 0, 0, 0.7);">
-                                                    Pondrás en práctica el conocimiento<br>
-                                                    y la utilidad de las herramientas<br>
-                                                    digitales de Salesforce para la<br>
-                                                    resolución de casos en el mundo<br>
-                                                    laboral.
+                                                <p class="font-Saravekreg" style="line-height: 20px;color:rgba(0, 0, 0, 0.7);">
+                                                Conocerás los casos de éxito que<br> 
+                                                diversas empresas lograron a través<br> 
+                                                de las herramientas digitales de<br> 
+                                                Salesforce. 
                                                 </p>
                                             </div>
                                             <br>
@@ -763,16 +760,16 @@
                                                     <img class="pt-2 pb-3 mx-auto d-block imgIconosTarjetasDescuadradas" id="iconModulo1" style="cursor: pointer;width: 100%;" src="<?= base_url('assets/img/home/iconoTutor.svg') ?>" alt="Icono" />
                                                 </div>
                                                 <div class="col-lg-9 text-left tituloTarjetasDescuadradas" style="padding-left: 0px;">
-                                                    <h5 class="font-Novbold" style="color: #00215B;padding-top: 1rem;">Acompañamiento</h5>
+                                                    <h5 class="font-Laurentiareg" style="color: #000000;padding-top: 1rem;font-weight: 600;">Acompañamiento</h5>
                                                 </div>
                                             </div>
                                             <br>
                                             <div class="info parrafoTarjetasDescuadradas">
-                                                <p style="line-height: 20px;color:rgba(0, 0, 0, 0.7);">
-                                                    Nuestro objetivo es convertirte en un<br>
-                                                    experto en Salesforce, por ello, tendrás<br>
-                                                    un acompañamiento personalizado y<br>
-                                                    guiada por expertos.
+                                                <p class="font-Saravekreg" style="line-height: 20px;color:rgba(0, 0, 0, 0.7);">
+                                                Tendrás un acompañamiento<br> 
+                                                personalizado por parte de los mejores<br> 
+                                                expertos, quienes estarán guiándote<br> 
+                                                durante todo tu proceso.
                                                 </p>
                                             </div>
                                             <br>
@@ -788,17 +785,17 @@
                                                 <img class="pt-2 pb-3 mx-auto d-block imgIconosTarjetasDescuadradas" id="iconModulo1" style="cursor: pointer;width: 100%;" src="<?= base_url('assets/img/home/iconoContenidoAsincrono.svg') ?>" alt="Icono" />
                                             </div>
                                             <div class="col-lg-9 text-left tituloTarjetasDescuadradas" style="padding-left: 0px;">
-                                                <h5 class="font-Novbold" style="color: #00215B;padding-top: 1rem;">Contenido Asíncrono</h5>
+                                                <h5 class="font-Laurentiareg" style="color: #000000;padding-top: 1rem;font-weight: 600;">Contenido Asíncrono</h5>
                                             </div>
                                         </div>
                                         <br>
                                         <div class="info parrafoTarjetasDescuadradas">
-                                            <p style="line-height: 20px;color:rgba(0, 0, 0, 0.7);">
-                                                Podrás avanzar a tu propio ritmo y<br>
-                                                tendrás la posibilidad de organizar<br>
-                                                tus tiempos para acceder al<br>
-                                                contenido asíncrono en el momento<br>
-                                                que lo decidas.
+                                            <p class="font-Saravekreg" style="line-height: 20px;color:rgba(0, 0, 0, 0.7);">
+                                            Podrás avanzar a tu propio ritmo y<br> 
+                                            tendrás la posibilidad de organizar tus<br> 
+                                            tiempos para observar el contenido<br> 
+                                            asíncrono en el momento que lo<br> 
+                                            decidas.
                                             </p>
                                         </div>
                                         <br>
@@ -812,19 +809,18 @@
                                                 <img class="pt-2 pb-3 mx-auto d-block imgIconosTarjetasDescuadradas" id="iconModulo1" style="cursor: pointer;width: 100%;" src="<?= base_url('assets/img/home/iconoSesiones.svg') ?>" alt="Icono" />
                                             </div>
                                             <div class="col-lg-9 text-left tituloTarjetasDescuadradas" style="padding-left: 0px;">
-                                                <h5 class="font-Novbold" style="color: #00215B;padding-top: 1rem;">Sesiones Síncronas</h5>
+                                                <h5 class="font-Laurentiareg" style="color: #000000;padding-top: 1rem;font-weight: 600;">Sesiones Síncronas</h5>
                                             </div>
                                         </div>
                                         <br>
                                         <div class="info parrafoTarjetasDescuadradas">
-                                            <p style="line-height: 20px;color:rgba(0, 0, 0, 0.7);">
-                                                Podrás participar activamente en las<br>
-                                                sesiones de trabajo y podrás tener<br>
-                                                interacciones con otros integrantes<br>
-                                                del programa. Las sesiones síncronas<br>
-                                                serán guiadas por tutores y expertos,<br>
-                                                con los que tendrás el apoyo<br>
-                                                didáctico para la resolución de dudas.
+                                            <p class="font-Saravekreg" style="line-height: 20px;color:rgba(0, 0, 0, 0.7);">
+                                            Tendrás la oportunidad de participar <br> 
+                                            activamente en las sesiones de trabajo<br> 
+                                            e interactuar con otros integrantes del<br> 
+                                            programa. Serán guiadas por tutores y<br> 
+                                            expertos, con los que tendrás el apoyo<br> 
+                                            didáctico para la resolución de dudas.
                                             </p>
                                         </div>
                                     </div>
@@ -843,84 +839,48 @@
             <div class="items-box">
                 <div class="row">
                     <div class="col-lg-7 info">
-                        <h2 class="font-Novbold" style="color: #00215B;padding-bottom: 2rem;">Beneficios del programa</h2>
-                        <ul>
+                        <h2 class="font-Laurentiareg" style="color: #000000;padding-bottom: 2rem;"><b>Beneficios<br> del programa</b></h2>
+                        <ul style="display: flex; flex-direction: column;">
                             <li class="li-beneficios">
-                                <h5 class="font-Novbold" style="color: #00215B;font-size: 18px;">Facilidades de pago</h5>
-                                <p>
-                                    Podrás realizar tus pagos durante<br>
-                                    <span class="font-Novbold" style="color: #25C7D9;">5 quincenas sin intereses.</span><br><br>
-                                    Paga hasta en <span class="font-Novbold" style="color: #25C7D9;">24 meses con cuotas<br> fijas</span> a través de Mercado Pago.
+                                <h5 class="font-Saravekreg" style="color: #000000;font-size: 18px;">Vinculación laboral</h5>
+                                <p class="font-Saravekreg">
+                                    <b>Por medio de UNIVERSIA,</b> tendrás la 
+                                    oportunidad de vincularte con diferentes 
+                                    empresas tanto nacionales como internacionales.
                                 </p>
-                            </li>
-                            <li class="li-beneficios">
-                                <h5 class="font-Novbold" style="color: #00215B;font-size: 18px;">Garantía de trabajo EmTech</h5>
-                                <p>
-                                    Estamos convencidos del alto valor que
-                                    tiene cada uno de los cursos que
-                                    ofrecemos, es por ello, que te
-                                    <span class="font-Novbold" style="color: #25C7D9;">garantizamos obtener al menos una
-                                        oferta laboral durante los primeros 3
-                                        meses de haber obtenido tu
-                                        certificación</span> y si no lo consigues, te
-                                    devolvemos tu dinero.*<br><br>
-
-                                    <span class="font-Novbold">*Aplican restricciones</span>
+                                <p class="font-Saravekreg">
+                                    Al obtener tu certificación en un career path, <b>te 
+                                    garantizamos recibir al menos 1 oferta de empleo 
+                                    durante los siguientes 3 meses.</b>
                                 </p>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="<?= base_url('assets/img/home/logoUniversia.png') ?>" alt="Thumb" style="width: 70%;">
+                                    </div>
+                                </div>  
+                                
                             </li>
-                            <li class="li-beneficios" style="padding-top:2rem;">
-                                <h5 class="font-Novbold" style="color: #00215B;font-size: 18px;">Vinculación laboral</h5>
-                                <p>
-                                    Por medio de <span class="font-Novbold" style="color: #25C7D9;">EXPERIS,</span> tendrás la<br>
-                                    oportunidad de vincularte con<br>
-                                    diferentes empresas tanto nacionales<br>
-                                    como internacionales.
-                                </p>
-                            </li>
-                            <li class="li-beneficios" style="padding-top:2rem;">
-                                <h5 class="font-Novbold" style="color: #00215B;font-size: 18px;">Incluye certificación</h5>
-                                <p>
-                                    En <span class="font-Novbold" style="color: #25C7D9;">EmTech es partner autorizado de Salesforce,</span>
-                                    para formar académicamente a sus futuros expertos.
-                                    Dentro de este programa, incluimos la certificación
-                                    oficial por parte de <span class="font-Novbold" style="color: #000000;">Salesforce</span> en cualquiera
-                                    de los <i>career paths</i> que decidas incursionar.
+                            <li class="li-beneficios" style="padding-top:3rem;">
+                                <h5 class="font-Saravekreg" style="color: #000000;font-size: 18px;">Doble Certificación</h5>
+                                <p class="font-Saravekreg">
+                                <b>EmTech es un partner autorizado por<br> 
+                                Salesforce, para formar académicamente a <br>
+                                sus futuros expertos.</b> Dentro de este<br> 
+                                programa, incluimos la certificación oficial por <br>
+                                parte de Salesforce en cualquiera de los <br>
+                                career path que decidas incursionar.<br>
                                 </p>
                             </li>
                         </ul>
                     </div>
                     <div class="col-lg-5 thumb">
-                        <img src="<?= base_url('assets/img/home/imgBeneficios.png') ?>" alt="Thumb">
+                        <img class="img-beneficiosDerecha" src="<?= base_url('assets/img/home/imgBeneficios.png') ?>" alt="Thumb">
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- End About Area -->
-
-    <!-- Start Fun Factor Area
-    ============================================= -->
-    <div class="fun-factor-area bg-gray default-padding" style="padding-bottom: 6rem;padding-top: 7rem">
-        <!-- Fixed BG -->
-        <div class="fixed-bg" style="background-image: url(<?= base_url('assets/img/home/bannerNumeros.png') ?>);">
-        </div>
-        <!-- Fixed BG -->
-        <div class="container">
-            <div class="text-center client-items">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <h2 class="text-center" style="color:#ffff;position: relative">
-                            ¡Forma parte de la comunidad de <span class="font-Novbold">innovadores digitales más importante del planeta!</span>
-                        </h2>
-                    </div>
-                    <div class="col-lg-4" style="padding-top:1rem;">
-                        <a class="btn circle btn-sm btn-naranja shape wow fadeInUp" data-wow-duration="1.8s" href="#" style="padding-left: 3rem;padding-right: 3rem;">Aplicar</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Fun Factor Area -->
     <div id="testimonios" class="testimonials-area default-padding">
         <div class="container">
             <div class="row">
@@ -990,6 +950,24 @@
             </div>
         </div>
     </div>
+
+    <div class="fun-factor-area bg-gray default-padding numbersMove">
+        <!-- Fixed BG -->
+        <div class="fixed-bg" style="background-image: url('<?=base_url("assets/img/home/bannerRedUniversia.png") ?>'); background-color:#EDEDED;background-repeat: no-repeat;background-size: cover;">
+        </div>
+        <!-- Fixed BG -->
+        <div class="container">
+            <div class="text-center client-items divDesarrolloProfesional" style="padding-left: 5rem;">
+                <div class="row">
+                    <h2 class="text-center font-Laurentiareg" style="color:#000000;position: relative;font-weight: 600;font-size: 38px;">¿Por qué desarrollarte
+                        profesionalmente en el
+                        mundo de Salesforce?
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
      <!-- Start Our About
     ============================================= -->
     <div id="about" class="about-area pt-5 text-center bg-blue-light pb-5">
