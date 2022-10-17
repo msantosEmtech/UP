@@ -1292,7 +1292,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
   opacity: 0.08;
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   transform: rotate(90deg); */
-  background-image: url(../img/home/puntosAzules2.png);
+  background-image: url(../img/home/puntosCafe2.png);
 }
 
 .rectangular-shape::before {
@@ -1303,7 +1303,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
     content: "";
     width: 80px;
     height: 117px;
-    background-image: url(../img/home/puntosAzules2.png);
+    background-image: url(../img/home/puntosCafe2.png);
 }
 
 .rectangular-shape.shape-margin-right::after {
@@ -2705,7 +2705,7 @@ body,
   padding: 10px 25px;
   position: relative;
   z-index: 1;
-  color: #00215B;
+  color: #000000;
   font-weight: 500;
 }
 
@@ -7214,10 +7214,24 @@ body.dark-layout .works-process-items .item .icon i {
   font-family: 'proxima-nova-bold';
 }
 
+.btn.btn-blanco {
+  background: #ffffff none repeat scroll 0 0;
+  border: 0px solid #ffffff;
+  color: #8D0537;
+  font-size:16px;
+  font-family: 'saravek-bold';
+}
+
 .btn.btn-naranja:hover, 
  .btn.btn-naranja:focus {
     color: #FFF;
     background: rgba(185, 151, 91, 0.8);
+}
+
+.btn.btn-blanco:hover, 
+ .btn.btn-blanco:focus {
+    color: #8D0537;
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .btn.btn-naranja.effect:hover, 
@@ -7587,6 +7601,11 @@ ul.containerVertical li:nth-child(2) div.imgIconoVertical {
         margin-right: -13rem !important;
     }
   
+    .img-beneficiosDerecha{
+      max-width: max-content !important;
+      margin-left: 0rem !important;
+      width: 350px !important;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -7662,6 +7681,8 @@ ul.containerVertical li:nth-child(2) div.imgIconoVertical {
         margin-bottom: 50px !important;
         padding-top: 2rem !important;
     }
+
+    
 }
 
 .row.equal-cols {
@@ -7719,6 +7740,6 @@ ul.containerVertical li:nth-child(2) div.imgIconoVertical {
 
 .img-beneficiosDerecha{
   max-width: max-content;
-    margin-left: -15rem;
-    width: 720px;
+    margin-left: -12rem;
+    width: 620px;
 }

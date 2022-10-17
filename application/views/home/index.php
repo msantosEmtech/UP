@@ -62,17 +62,8 @@
         <div class="container">
             <h4 class="text-center font-Saravekreg">Nos aliamos con estas <span class="font-Saravekbold">organizaciones de clase mundial</span> para ayudarte a impulsar tu carrera:</h4>
             <div class="pt-3 row text-center">
-                <div class="col-lg-3 col-md-3 single-item" style="text-align: end;">
-                    <img src="<?= base_url('assets/img/home/emtech-logo.png') ?>" alt="Logo" style="width: 60%;padding-top: 1rem;">
-                </div>
-                <div class="col-lg-3 col-md-3 single-item">
-                    <img src="<?= base_url('assets/img/home/universia-logo.png') ?>" alt="Logo" style="width: 60%;padding-top: 1rem;">
-                </div>
-                <div class="col-lg-3 col-md-3 single-item" style="text-align: left;">
-                    <img src="<?= base_url('assets/img/home/santander-logo.png') ?>" alt="Logo" style="width: 80%;">
-                </div>
-                <div class="col-lg-3 col-md-3 single-item" style="text-align: left;">
-                    <img src="<?= base_url('assets/img/home/logo-salesforce.png') ?>" alt="Logo" style="width: 40%;">
+                <div class="col-lg-12">
+                    <img src="<?= base_url('assets/img/home/logosJuntosGris.png') ?>" alt="Thumb" style="width: 95%;">
                 </div>
             </div>
         </div>
@@ -82,7 +73,7 @@
             <div class="items-box">
                 <div class="row">
                     <div class="col-lg-6 thumb wow fadeInDown" style="margin-top: -5rem;">
-                        <img src="<?= base_url('assets/img/home/jovenLibro.png') ?>" alt="Thumb" style="width: 80%;">
+                        <img src="<?= base_url('assets/img/home/jovenLibro.png') ?>" alt="Thumb" style="width: 95%;">
                     </div>
                     <div class="col-lg-6 info wow fadeInRight" data-wow-duration="1.3s">
                         <div class="about-tabs">
@@ -855,7 +846,7 @@
                                 </p>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <img src="<?= base_url('assets/img/home/logoUniversia.png') ?>" alt="Thumb" style="width: 70%;">
+                                        <img src="<?= base_url('assets/img/home/logoUniversia.png') ?>" alt="Thumb" style="width: 60%;">
                                     </div>
                                 </div>  
                                 
@@ -870,6 +861,11 @@
                                 parte de Salesforce en cualquiera de los <br>
                                 career path que decidas incursionar.<br>
                                 </p>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="<?= base_url('assets/img/home/salesforcePartner.png') ?>" alt="Thumb" style="width: 60%;">
+                                    </div>
+                                </div>  
                             </li>
                         </ul>
                     </div>
@@ -953,20 +949,67 @@
 
     <div class="fun-factor-area bg-gray default-padding numbersMove">
         <!-- Fixed BG -->
-        <div class="fixed-bg" style="background-image: url('<?=base_url("assets/img/home/bannerRedUniversia.png") ?>'); background-color:#EDEDED;background-repeat: no-repeat;background-size: cover;">
+        <div class="fixed-bg" style="background-image: url('<?=base_url("assets/img/home/bannerRedUniversia.png") ?>'); background-repeat: no-repeat;background-size: contain;">
         </div>
         <!-- Fixed BG -->
         <div class="container">
-            <div class="text-center client-items divDesarrolloProfesional" style="padding-left: 5rem;">
+            <div class="client-items divDesarrolloProfesional" style="padding-left: 5rem;">
                 <div class="row">
-                    <h2 class="text-center font-Laurentiareg" style="color:#000000;position: relative;font-weight: 600;font-size: 38px;">¿Por qué desarrollarte
-                        profesionalmente en el
-                        mundo de Salesforce?
-                    </h2>
+                    <div class="col-lg-8">
+                        <h3 class="font-Laurentiareg" style="color:#ffff;position: relative">
+                            ¡Forma parte de la comunidad de <span class="font-Laurentiareg"><b>innovadores digitales más importante del planeta!</b></span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <a class="btn circle btn-sm btn-blanco shape wow fadeInUp" data-wow-duration="1.8s" href="#" style="padding-left: 3rem;padding-right: 3rem;">Aplicar</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="skill-area overflow-hidden circular-shape default-padding">
+<div class="container">
+<div class="skill-items">
+<div class="row">
+<div class="col-lg-6 info">
+<h2>Our Skill</h2>
+<h3>We are master in data science<br>
+&amp; big data analysis</h3>
+<p>
+Attention sex questions applauded how happiness. To travelling occasional at oh sympathize prosperous. His merit end means widow songs linen known. Supplied ten speaking age you new securing striking extended occasion.
+</p>
+<div class="skill-items"><div class="progress-box">
+<h5>Data Anaylsis<span class="float-right">88%</span></h5>
+<div class="progress" style="opacity: 1; left: 0px;">
+<div class="progress-bar" role="progressbar" data-width="88" style="width: 88%;"></div>
+</div>
+</div><div class="progress-box">
+<h5>Social Assistant<span class="float-right">95%</span></h5>
+<div class="progress" style="opacity: 1; left: 0px;">
+ <div class="progress-bar" role="progressbar" data-width="95" style="width: 95%;"></div>
+</div>
+</div><div class="progress-box">
+<h5>AI Solutions<span class="float-right">70%</span></h5>
+<div class="progress" style="opacity: 1; left: 0px;">
+<div class="progress-bar" role="progressbar" data-width="70" style="width: 70%;"></div>
+</div>
+</div></div>
+</div>
+<div class="col-lg-6 thumb">
+<div class="image-box">
+<img class="wow fadeInRight" data-wow-delay="0.6s" src="https://wordpressriverthemes.com/anada/wp-content/uploads/2020/07/3.jpg" alt="Thumb" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInRight;">
+<img class="wow fadeInLeft" data-wow-delay="0.8s" src="https://wordpressriverthemes.com/anada/wp-content/uploads/2020/07/1.jpg" alt="Thumb" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div></div>
 
      <!-- Start Our About
     ============================================= -->
