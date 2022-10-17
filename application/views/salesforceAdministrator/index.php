@@ -1,5 +1,4 @@
 <?php
-
     $source = "";
     $medium = "";
     $canal = "";
@@ -40,6 +39,7 @@
     <link href="<?= base_url('assets/css/owl.theme.default.min.css') ?>" rel="stylesheet" />
 
     <link rel="stylesheet" href="<?= base_url('assets/course/css/vendor.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/course/css/style.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/course/css/responsive.css') ?>">
     <link href="<?= base_url('assets/css/animate.css') ?>" rel="stylesheet" />
@@ -144,14 +144,14 @@
                 </div>
                 <div class="col-lg-7 order-lg-1 align-self-center">
                     <div class="banner-inner text-center text-lg-left mt-5 mt-lg-0">
-                        <h1 class="b-animate-2 title" style="line-height:1">
+                        <h1 class="b-animate-2 title font-Laurentiareg" style="line-height:1;color:#000000;">
                             Salesforce <br>
-                            <span class="color-sf font-Novbold">Administrator</span>
+                            <span style="color:#B69256">Administrator</span>
                         </h1>
-                        <h4 class="b-animate-2">Conviértete en el experto que le dé vida <br>a la <b>innovación tecnológica</b> de las compañías.</h4>
+                        <h4 class="b-animate-1" style="color:#000000">Conviértete en el experto que le dé vida <br>a la <b>innovación tecnológica</b> de las compañías.</h4>
                         <div class="mt-4">
-                            <a class="btn btn-base b-animate-3" href="https://emtech.digital/salesforce-admin/?s=<?=$source?>&m=<?=$medium?>&c=<?=$canal?>">Aplicar</a>
-                            <a class="btn btn-border-black m-2 b-animate-3" href="<?= base_url('SalesforceAdministrator/downloadSyllabus') ?>">Descargar Syllabus</a>                            
+                            <a style="background: #B69256!important;" class="btn btn-base b-animate-3" href="https://emtech.digital/salesforce-admin/?s=<?=$source?>&m=<?=$medium?>&c=<?=$canal?>">Aplicar</a>
+                            <a style="color: #B69256!important;border: 2px solid #B69256!important;" class="btn btn-border-black m-2 b-animate-3" href="<?= base_url('SalesforceAdministrator/downloadSyllabus') ?>">Descargar Syllabus</a>                            
                         </div>
 
                     </div>
