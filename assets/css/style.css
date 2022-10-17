@@ -555,7 +555,7 @@ input {
 
 .default-padding {
   padding-top: 120px;
-  padding-bottom: 170px;
+  padding-bottom: 120px;
 }
 
 .default-padding-top {
@@ -762,8 +762,8 @@ input {
 }
 
 .bg-dark {
-  /* background: #111d30 none repeat scroll 0 0 !important; */
-  background-image: url(../img/home/bannerNumeros.png);
+  background: rgba(232, 233, 235, 0.7) none repeat scroll 0 0 !important;
+  /* background-image: url(../img/home/bannerNumeros.png); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1312,7 +1312,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
   top: 40px;
 }
 
-.circular-shape::after {
+/* .circular-shape::after {
   position: absolute;
   right: 30px;
   top: 150px;
@@ -1323,7 +1323,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
   z-index: -1;
   opacity: 0.07;
   border-radius: 50%;
-}
+} */
 
 .border-shape::before {
   position: absolute;
@@ -3401,7 +3401,7 @@ body,
 .skill-area .thumb .image-box img {
   margin-right: 20%;
   border: 10px solid #ffffff;
-  box-shadow: 0 0 10px #cccccc;
+  /* box-shadow: 0 0 10px #cccccc; */
   max-width: 80%;
 }
 
@@ -6538,19 +6538,20 @@ footer .f-items .f-item.link li {
 footer .f-items .f-item.link li a {
   display: inline-block;
   color: #666666;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 footer.bg-dark .f-items .f-item.link li a {
-  color: #cccccc;
+  color: #000;
+  font-family: "proxima-nova";
 }
 
 footer.bg-dark p {
-  color: #cccccc;
+  color: #000;
 }
 
 footer .f-items .f-item.link li a:hover {
-  color: #25C7D9;
+  color: #B69256;
 }
 
 footer .f-items .f-item.link li:last-child {
@@ -6562,7 +6563,7 @@ footer .f-items .f-item.contact li {
 }
 
 footer.bg-dark .f-items .f-item.contact li {
-  color: #cccccc;
+  color: #000;
 }
 
 footer .f-items .f-item.contact li:last-child {
@@ -7742,4 +7743,12 @@ ul.containerVertical li:nth-child(2) div.imgIconoVertical {
   max-width: max-content;
     margin-left: -12rem;
     width: 620px;
+}
+
+.lineaBanner {
+  border: 1px solid #6A6A6A;
+  width: auto;
+  opacity: 1;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }

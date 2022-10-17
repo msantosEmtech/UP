@@ -98,21 +98,21 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                         <li>
-                            <a href="<?= base_url('Home') ?>">Home</a>
+                            <a href="<?= base_url('Home') ?>" style="font-family: 'proxima-nova';">Home</a>
                         </li>
                         <li>
-                            <a href="<?= base_url('Home') ?>#aboutUs">Sobre Nosotros</a>
+                            <a href="<?= base_url('Home') ?>#aboutUs" style="font-family: 'proxima-nova';">Sobre Nosotros</a>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programas</a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-family: 'proxima-nova';">Programas</a>
                             <ul class="dropdown-menu">
-                                <li><a href="<?= base_url('SalesforceAdministrator') ?>">Salesforce Administrator</a></li>
-                                <li><a href="<?= base_url('SalesforceBusinessAnalyst') ?>">Salesforce Business Analyst</a></li>
-                                <li><a href="<?= base_url('SalesforceDeveloper') ?>">Salesforce Developer</a></li>
+                                <li><a href="<?= base_url('SalesforceAdministrator') ?>" style="font-family: 'proxima-nova';">Salesforce Administrator</a></li>
+                                <li><a href="<?= base_url('SalesforceBusinessAnalyst') ?>" style="font-family: 'proxima-nova';">Salesforce Business Analyst</a></li>
+                                <li><a href="<?= base_url('SalesforceDeveloper') ?>" style="font-family: 'proxima-nova';">Salesforce Developer</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#beneficios">Beneficios</a>
+                            <a href="#beneficios" style="font-family: 'proxima-nova';">Beneficios</a>
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->

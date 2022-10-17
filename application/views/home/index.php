@@ -949,11 +949,11 @@
 
     <div class="fun-factor-area bg-gray default-padding numbersMove">
         <!-- Fixed BG -->
-        <div class="fixed-bg" style="background-image: url('<?=base_url("assets/img/home/bannerRedUniversia.png") ?>'); background-repeat: no-repeat;background-size: contain;">
+        <div class="fixed-bg" style="background-image: url('<?=base_url("assets/img/home/bannerRedUniversia.png") ?>'); background-repeat: no-repeat;background-size: cover;">
         </div>
         <!-- Fixed BG -->
         <div class="container">
-            <div class="client-items divDesarrolloProfesional" style="padding-left: 5rem;">
+            <div class="client-items divDesarrolloProfesional">
                 <div class="row">
                     <div class="col-lg-8">
                         <h3 class="font-Laurentiareg" style="color:#ffff;position: relative">
@@ -970,131 +970,53 @@
         </div>
     </div>
 
-    <div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="skill-area overflow-hidden circular-shape default-padding">
-<div class="container">
-<div class="skill-items">
-<div class="row">
-<div class="col-lg-6 info">
-<h2>Our Skill</h2>
-<h3>We are master in data science<br>
-&amp; big data analysis</h3>
-<p>
-Attention sex questions applauded how happiness. To travelling occasional at oh sympathize prosperous. His merit end means widow songs linen known. Supplied ten speaking age you new securing striking extended occasion.
-</p>
-<div class="skill-items"><div class="progress-box">
-<h5>Data Anaylsis<span class="float-right">88%</span></h5>
-<div class="progress" style="opacity: 1; left: 0px;">
-<div class="progress-bar" role="progressbar" data-width="88" style="width: 88%;"></div>
-</div>
-</div><div class="progress-box">
-<h5>Social Assistant<span class="float-right">95%</span></h5>
-<div class="progress" style="opacity: 1; left: 0px;">
- <div class="progress-bar" role="progressbar" data-width="95" style="width: 95%;"></div>
-</div>
-</div><div class="progress-box">
-<h5>AI Solutions<span class="float-right">70%</span></h5>
-<div class="progress" style="opacity: 1; left: 0px;">
-<div class="progress-bar" role="progressbar" data-width="70" style="width: 70%;"></div>
-</div>
-</div></div>
-</div>
-<div class="col-lg-6 thumb">
-<div class="image-box">
-<img class="wow fadeInRight" data-wow-delay="0.6s" src="https://wordpressriverthemes.com/anada/wp-content/uploads/2020/07/3.jpg" alt="Thumb" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInRight;">
-<img class="wow fadeInLeft" data-wow-delay="0.8s" src="https://wordpressriverthemes.com/anada/wp-content/uploads/2020/07/1.jpg" alt="Thumb" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div></div></div></div>
-
-     <!-- Start Our About
-    ============================================= -->
-    <div id="about" class="about-area pt-5 text-center bg-blue-light pb-5">
-        <div class="container">
-            <div class="heading-left">
-                <div class="row">
-                    <div class="col-lg-12 text-center pb-2 pt-5">
-                        <h2 class="font-Novbold" style="color:#00215B;">
-                            Facilitadores de los cursos
-                        </h2>
+    <div class="vc_row wpb_row vc_row-fluid">
+        <div class="wpb_column vc_column_container vc_col-sm-12">
+            <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                    <div class="skill-area overflow-hidden circular-shape default-padding">
+                        <div class="container">
+                            <div class="skill-items">
+                                <div class="row">
+                                    <div class="col-lg-6 info">
+                                        <h2 class="font-Laurentiareg"><b>Nuestra alianza</b></h2>
+                                        <p class="font-Novareg">
+                                            <b>
+                                                Consolidamos una alianza estratégica entre las 
+                                                mejores compañías, para sumar nuestras visiones hacia 
+                                                un mundo de extraordinarias oportunidades de empleo 
+                                                para los futuros profesionistas del país. 
+                                            </b>
+                                        </p>
+                                        <p class="font-Novareg">
+                                            Sumamos nuestros esfuerzos y estructuramos nuestros objetivos 
+                                            para enfocarnos en el compromiso de exponenciar el 
+                                            crecimiento profesional de los estudiantes y transformar el 
+                                            mundo empresarial a través de las nuevas tecnologías.
+                                        </p>
+                                        <p class="font-Novareg">
+                                            Hoy estamos conectando <b>talento, conocimiento, experiencia e 
+                                            innovación</b> para impulsar el desarrollo de las competencias 
+                                            digitales en cada uno de nuestros distinguidos alumnos.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-6 thumb">
+                                        <div class="image-box">
+                                            <img class="wow fadeInRight" data-wow-delay="0.6s" src="<?= base_url('assets/img/home/alianzaImg.png') ?>" alt="Thumb" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInRight;max-width: 95%;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <img class="wow fadeInRight" data-wow-delay="0.6s" src="<?= base_url('assets/img/home/logosJuntos.png') ?>" alt="Thumb" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInRight;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>  
-            <style>
-            .row.equal-cols {
-              display: -webkit-flex;
-              display: -ms-flexbox;
-              display: flex;
-              -webkit-flex-wrap: wrap;
-              -ms-flex-wrap: wrap;
-              flex-wrap: wrap;
-              }
-              
-              .row.equal-cols:before,
-              .row.equal-cols:after {
-              display: block;
-              }
-              
-              .row.equal-cols > [class*='col-'] {
-              display: -webkit-flex;
-              display: -ms-flexbox;
-              display: flex;
-              -webkit-flex-direction: column;
-              -ms-flex-direction: column;
-              flex-direction: column;
-              }
-              
-              .row.equal-cols > [class*='col-'] > * {
-              -webkit-flex: 1 1 auto;
-              -ms-flex: 1 1 auto;
-              flex: 1 1 auto; 
-              }                
-            </style>
-            <div class="about-items pb-3">
-                <div class="row equal-cols">
-                    <div class="col-lg-4 col-md-4  col-xs-12 info pb-3">
-                        <div class="card cards-facilitadores top-card">
-                            <div class="card-body text-left">
-                                <img src="<?= base_url('assets/course/img/emtech-b.png') ?>" alt="Thumb" style="width:12rem;padding-bottom:1rem">
-                                <p style="line-height:20px;font-size:16px;">Fundada en Silicon Valley, EmTech es una<br> empresa enfocada en el desarrollo de<br> soluciones que respondan a la<br> incorporación de tecnologías emergentes a<br> través de dos rubros: 
-                                <br>
-                                <br>
-                                <span class="font-Novbold" style="color:#00215B;">
-                                - Desarrollo de competencias en<br> tecnologías emergentes de alta<br> empleabilidad. <br>
-                                - Transformación digital del modelo<br> educativo</span></p>
-                            </div>
-                        </div>                                                                                      
-                    </div> 
-                    <div class="col-lg-4 col-md-4  col-xs-12 info pb-3">
-                        <div class="card cards-facilitadores top-card">
-                            <div class="card-body text-left">
-                                <img src="<?= base_url('assets/course/img/experis-b.png') ?>" alt="Thumb" style="width:12rem;padding-bottom:1rem">
-                                <p style="line-height:20px; font-size:16px;">Experis es parte de la Familia de Marcas de <span class="font-Novbold" style="color:#00215B">ManpowerGroup.</span> 
-                                <br>
-                                <br>
-                                ManpowerGroup es el líder mundial en servicios y soluciones innovadoras de capital humano, que conecta el <span class="font-Novbold" style="color:#00215B">potencial de las personas con el poder de los negocios.</span></p>
-                            </div>
-                        </div>                                                                                      
-                    </div>
-                    <div class="col-lg-4 col-md-4  col-xs-12 info pb-3">
-                        <div class="card cards-facilitadores top-card">
-                            <div class="card-body text-left">
-                                <img src="<?= base_url('assets/course/img/salesforce-b.png') ?>" alt="Thumb" style="width:6.5rem;padding-bottom:1rem">
-                                <p style="line-height:20px;font-size:16px;">Fundada en 1999, Salesforce fue pionera en la idea revolucionaria de reemplazar el software de escritorio tradicional de CRM con CRM en la nube, volviéndola accesible en cualquier momento y desde cualquier lugar. 
-                                <br>
-                                <br>
-                                <span class="font-Novbold" style="color:#00215B;">Actualmente, nuestra plataforma innovadora en la nube es la solución de CRM n.º1 en el mundo.</span></p>
-                            </div>
-                        </div>                                                                                      
-                    </div>                    
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Our About -->
     <!-- Star Footer
     ============================================= -->

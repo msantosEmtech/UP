@@ -3,8 +3,12 @@
         <div class="f-items default-padding">
             <div class="row">
                 <div class="equal-height col-lg-3 col-md-6 item">
+                    <div class="f-item about">
+                        <img src="<?= base_url('assets/img/logoPanamericanoFooter.png') ?>" alt="Logo" style="max-width: 100%;margin-left: -2rem;">
+                    </div>
+                </div>
+                <div class="equal-height col-lg-2 col-md-6 item">
                     <div class="f-item link">
-                        <h4 class="widget-title">Inicio</h4>
                         <ul>
                             <li>
                                 <a href="<?= base_url('Home') ?>#aboutUs">¿Quiénes somos?</a>
@@ -19,9 +23,8 @@
                     </div>
                 </div>
 
-                <div class="equal-height col-lg-3 col-md-6 item">
+                <div class="equal-height col-lg-2 col-md-6 item">
                     <div class="f-item link">
-                        <h4 class="widget-title">Cursos</h4>
                         <ul>
                             <li>
                                 <a href="<?= base_url('SalesforceAdministrator') ?>">Salesforce Administrator</a>
@@ -36,9 +39,8 @@
                     </div>
                 </div>
 
-                <div class="equal-height col-lg-3 col-md-6 item">
+                <div class="equal-height col-lg-2 col-md-6 item">
                     <div class="f-item link">
-                        <h4 class="widget-title">El programa</h4>
                         <ul>
                             <li>
                                 <a href="<?= base_url('Home') ?>#caracteristicas">Características</a>
@@ -58,34 +60,39 @@
 
                 <div class="equal-height col-lg-3 col-md-6 item">
                     <div class="f-item contact">
-                        <h4 class="widget-title" style="color:#FFF">Contáctanos</h4>
-                        <p>
-                            Síguenos en nuestras redes sociales.
+                        <p class="font-Novreg">
+                        ¿Estás listo para dar ese salto hacia <b>tu éxito profesional?</b>
+                        Tu oportunidad de llegar a las nubes, está en Salesforce
                         </p>
                         <ul class="social">
                             <li>
                                 <a href="https://www.facebook.com/emtech.inst"><img src="<?= base_url('assets/img/home/iconoFacebook.png') ?>"></a>
                             </li>
                             <li>
+                                <a href="https://www.facebook.com/emtech.inst"><img src="<?= base_url('assets/img/home/iconTwitter.png') ?>"></a>
+                            </li>
+                            <li>
                                 <a href="https://www.instagram.com/emtech.inst/"><img src="<?= base_url('assets/img/home/iconoInstagram.png') ?>"></a>
                             </li>                                
                             <li>
-                                <a href="https://www.facebook.com/emtech.inst"><img src="<?= base_url('assets/img/home/iconoLinkedin.png') ?>"></a>
+                                <a href="https://www.facebook.com/emtech.inst"><img src="<?= base_url('assets/img/home/iconoPinterest.png') ?>"></a>
                             </li>
+                            
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <hr class="lineaBanner">
 </footer>
-<div class="pt-5 footer-bottom" style="background-color: #ffffff;">
+<div class="pt-5 footer-bottom" style="background-color: rgba(232, 233, 235, 0.7);">
     <div class="row container">
-        <div class="col-lg-2 col-md-2 div-img-footer" style="padding-left: 2rem;">
+        <div class="col-lg-2 col-md-2 div-img-footer" style="padding-left: 2rem;padding-bottom: 2rem;">
             <img class="img-footer" src="<?= base_url('assets/img/home/footerLogo.png') ?>" style="width: 100%;">
         </div>
         <div class="col-lg-10 col-md-10 div-text-footer">
-            <small class="d-block mb-3 text-muted" style="color: #00215B !important;">
+            <small class="d-block mb-3 text-muted" style="color: #000 !important;font-weight: 600;">
                 Emerging Technologies Institute | All Rights Reserved
             </small>
         </div>

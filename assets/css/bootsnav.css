@@ -1454,7 +1454,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.nav > li.active > a {
-    color: #25C7D9;
+    color: #B9975B;
   }
 
   nav.navbar.bootsnav.color-yellow ul.nav > li.active > a {
@@ -1462,12 +1462,12 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav.barber ul.nav > li.active > a {
-    color: #bc9355;
+    color: #B9975B;
   }
 
   nav.navbar.bootsnav.active-full ul.nav > li > a.active,
     nav.navbar.bootsnav.active-full ul.nav > li > a:hover {
-    background: #25C7D9 none repeat scroll 0 0 !important;
+    background: #B9975B none repeat scroll 0 0 !important;
     color: #ffffff;
   }
 
@@ -1481,7 +1481,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.nav > li > a:hover {
-    color: #B9975B;
+    color: #B9975B !important;
   }
 
   nav.navbar.bootsnav.color-yellow ul.nav > li > a:hover {
@@ -1561,7 +1561,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
-    color: #25C7D9;
+    color: #B9975B;
   }
 
   nav.navbar.bootsnav.color-yellow ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
@@ -1569,7 +1569,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.navbar-left li.dropdown ul.dropdown-menu li a:hover {
-    color: #25C7D9;
+    color: #B9975B;
   }
 
   nav.navbar.bootsnav.color-yellow ul.navbar-left li.dropdown ul.dropdown-menu li a:hover {
@@ -1661,7 +1661,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover {
-    color: #437eeb;
+    color: #B9975B;
   }
 
   nav.navbar.bootsnav.color-yellow ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover {
