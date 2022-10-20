@@ -2946,6 +2946,7 @@ body,
   padding-left: 35px;
 }
 
+<<<<<<< Updated upstream
 
   .our-features-area .feature-items .item {
     padding: 25px;
@@ -2955,6 +2956,14 @@ body,
     border-radius: 10px;
     width: 24rem;
     height: 35rem;
+=======
+.our-features-area .feature-items .item {
+  padding: 50px;
+  /* border-bottom: 3px solid #437eeb; */
+  box-shadow: 0 0 10px #cccccc;
+  background: #ffffff;
+  border-radius: 10px;
+>>>>>>> Stashed changes
 }
 
 
@@ -7211,7 +7220,11 @@ body.dark-layout .works-process-items .item .icon i {
   color: #232323;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+<<<<<<< Updated upstream
   background: linear-gradient(90deg, rgb(0 0 0) 0%,  rgb(0 0 0) 100%);
+=======
+  background: linear-gradient(90deg, rgb(182 146 86) 0%, rgb(182 146 86) 100%);
+>>>>>>> Stashed changes
   -webkit-background-clip: text;
 }
 

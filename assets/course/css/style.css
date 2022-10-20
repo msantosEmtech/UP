@@ -46,8 +46,8 @@ Version: 1.0.2
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500,600,700i&display=swap");
 @import "../fonts/fonts.css";
 :root {
-  --main-color: #F27C21;
-  --heading-color: #00215B;
+  --main-color: #B69256;
+  --heading-color: #000000;
   --paragraph-color: #333333;
   --body-font: 'proxima-nova', Georgia, sans-serif;
   --body-font-size: 16px;
@@ -76,13 +76,33 @@ html {
 
 @font-face{
   font-family: "proxima-nova";
-  src:url("../fonts/proxima-nova/ProximaNova-Reg-webfont.ttf") format('truetype');
+  src:url("../../fonts/proxima-nova/ProximaNova-Reg-webfont.ttf") format('truetype');
 }
 
 @font-face{
   font-family: "proxima-nova-bold";
-  src:url("../fonts/proxima-nova/ProximaNova-Bold-webfont.ttf") format('truetype');
+  src:url("../../fonts/proxima-nova/ProximaNova-Bold-webfont.ttf") format('truetype');
 } 
+
+@font-face{
+  font-family: "saravek";
+  src:url("../../fonts/saravek/Seravek-Regular.otf") format('truetype');
+}
+
+@font-face{
+  font-family: "saravek-bold";
+  src:url("../../fonts/saravek/Seravek-Bold.otf") format('truetype');
+}
+
+@font-face{
+  font-family: "laurentia-pro";
+  src: url('../../fonts/laurentia-pro/font.woff') format('woff');
+}
+
+@font-face{
+  font-family: "laurentia-probold";
+  src: url('../../fonts/laurentia-pro/font-bold.otf') format('truetype');
+}
 
 .font-Novbold{
   font-family: "proxima-nova-bold", sans-serif;
@@ -90,6 +110,22 @@ html {
 
 .font-Novreg{
   font-family: "proxima-nova", sans-serif;
+}
+
+.font-Saravekbold{
+  font-family: "saravek-bold", sans-serif;
+}
+
+.font-Saravekreg{
+  font-family: "saravek", sans-serif;
+}
+
+.font-Laurentiareg{
+  font-family: "laurentia-pro", sans-serif;
+}
+
+.font-Laurentiabold{
+  font-family: "laurentia-probold", sans-serif;
 }
 
 body {
@@ -637,8 +673,8 @@ ul {
 }
 
 .btn-base {
-  color: #F27C21;
-  background: #F27C21;
+  color: #B69256;
+  background: #B69256;
   color:#FFFFFF;
   border-radius: 16px;
   width:11rem;
@@ -646,7 +682,7 @@ ul {
 
 .btn-base:hover {
   color:#FFF;
-  background: rgba(242, 124, 33, 0.8);
+  background: rgba(182, 146, 86, 0.8);
 }
 
 .btn.btn-base-s{
@@ -665,8 +701,8 @@ ul {
 }
 
 .btn-base-s {
-  color: #F27C21;
-  background: #F27C21;
+  color: #B69256;
+  background: #B69256;
   color:#FFFFFF;
   border-radius: 16px;
   width:8rem;
@@ -674,7 +710,7 @@ ul {
 
 .btn-base-s:hover {
   color:#FFF;
-  background: rgba(242, 124, 33, 0.8);
+  background: rgba(182, 146, 86, 0.8);
 }
 
 .btn-border-white {
@@ -691,16 +727,16 @@ ul {
 }
 
 .btn-border-black {
-  color: #F27C21;
-  border: 2px solid #F27C21;
+  color: #B69256;
+  border: 2px solid #B69256;
   border-radius: 16px;
   width:11rem;
 }
 
 .btn-border-black:hover,
 .btn-border-black:focus {
-  color: rgba(242, 124, 33, 0.8);
-  border: 2px solid rgba(242, 124, 33, 0.8);;
+  color: rgba(182, 146, 86, 0.8);
+  border: 2px solid rgba(182, 146, 86, 0.8);;
   border-radius: 16px;
 }
 
@@ -2544,7 +2580,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
   text-align: center;
   font-size: 20px;
   display: inline-block;
-  color: #25C7D9;
+  color: #8C0537;
 }
 
 .single-list-inner.style-check-box-grid-2 {
@@ -2611,14 +2647,14 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 /* Color de caja: ¿Qué incluye */
 .single-list-inner.style-box-bg {
   background: #fff;
-  color: #00215B !important;
+  color: #000000 !important;
   box-shadow: 0px 22px 25px #F3F3F3, 0px 4.4px 13px #F7F8FA;
   padding: 15px;
   border-radius: 25px;
 }
 
 .single-list-inner.style-box-bg:hover{
-  background: #25C7D9;
+  background: #B69256;
   color:#FFFFFF !important;
   box-shadow: 0px 22px 25px #F3F3F3, 0px 4.4px 13px #F7F8FA;
   padding: 15px;
@@ -2627,7 +2663,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 
 /* Color de texto: ¿Qué incluye */
 .single-list-inner.style-box-bg h6{
-  color: #00215B !important;
+  color: #000000 !important;
 }
 .single-list-inner.style-box-bg:hover h6{
   color:#FFFFFF !important;
@@ -4267,7 +4303,7 @@ footer .f-items .f-item.link li a {
 }
 
 footer.bg-dark .f-items .f-item.link li a {
-  color: #cccccc;
+  color: #000000;
 }
 
 footer.bg-dark p {
@@ -4275,7 +4311,7 @@ footer.bg-dark p {
 }
 
 footer .f-items .f-item.link li a:hover {
-  color: #25C7D9;
+  color: #B69256;
 }
 
 footer .f-items .f-item.link li:last-child {
@@ -4373,8 +4409,9 @@ footer .footer-bottom p a {
 }
 
 .bg-dark {
-  /* background: #111d30 none repeat scroll 0 0 !important; */
-  background-image: url(../../../assets/img/home/bannerNumeros.png);
+
+  background: #E8E9EB !important;
+  /* background-image: url(../../../assets/img/home/bannerNumeros.png); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4404,7 +4441,7 @@ footer .footer-bottom p a {
 
 
 .fondo-info{
-  background-image: url('../../../assets/course/img/glassy-card-2.png');
+  background-image: url('../../../assets/course/img/glassy-card-3.png');
   background-size:contain;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 21px;
@@ -4430,7 +4467,7 @@ footer .footer-bottom p a {
 }
 
 .color-sf{
-  color:#25C7D9;
+  color:#B69256;
 }
 
 .icono-carrusel{
@@ -4575,7 +4612,7 @@ footer .footer-bottom p a {
   height:44px;
   margin: 5px;
   padding: 6px 9px;
-  background: #25C7D9;
+  background: #8B0637;
   display: inline-block;
   cursor: pointer;
   box-shadow: 0px 2px 2px rgba(152, 152, 152, 0.2);
@@ -4992,7 +5029,7 @@ footer .footer-bottom p a {
   margin-right: -100px;
   background-size: contain;
   margin-left: -50px;
-  opacity: 0.3;
+  /* opacity: 0.3; */
 }
 
 .dots .img-dots-r::after {
@@ -5073,7 +5110,7 @@ footer .footer-bottom p a {
 }
 
 .works-process-items .item .icon i {
-  background: linear-gradient(90deg, rgba(0,33,91,1) 0%, rgba(0,73,144,0.8) 100%);
+  background: linear-gradient(90deg, rgba(140, 5, 55, 1) 0%, rgba(140, 5, 55, 0.8) 100%);
   border-radius: 20px;
   color: #ffffff;
   font-size: 50px;
@@ -5325,7 +5362,7 @@ footer .footer-bottom p a {
 }
 
 .center-tabs .nav-tabs li a.active {
-  background: #25C7D9;
+  background: #B69256;
   color: #ffffff;
 }
 

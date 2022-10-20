@@ -218,10 +218,10 @@
         $('.feature-carousel').owlCarousel({
             loop: true,
             nav: true,
-            margin:30,
+            margin:100,
             dots: false,
             autoplay: true,
-            items: 3,
+            items: 2,
             navText: [
                 "<i class='fa fa-angle-left'></i>",
                 "<i class='fa fa-angle-right'></i>"
@@ -237,6 +237,7 @@
                     nav:true
                 },
                 1000:{
+                    items: 3,
                     stagePadding:-60,
                     nav:true
                 }
