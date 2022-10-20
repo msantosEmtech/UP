@@ -72,6 +72,8 @@ const counterUp = window.counterUp.default
         init = setInterval("vertCycle()", intervalSec);
     });
 
+    
+
     // var cards = $('#card-slider .slider-item').toArray();
 
     // startAnim(cards);
@@ -154,3 +156,31 @@ const counterUp = window.counterUp.default
     //         return startAnim(array);
     //     }, 3000)
     // }
+
+    $('.feature-carousel').owlCarousel({
+        loop: true,
+        nav: true,
+        margin:30,
+        dots: false,
+        autoplay: true,
+        items: 3,
+        navText: [
+            "<i class='fa fa-angle-left'></i>",
+            "<i class='fa fa-angle-right'></i>"
+        ],
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:2,
+                nav:true
+            },
+            1000:{
+                stagePadding:-50,
+                nav:true
+            }
+        }
+    });

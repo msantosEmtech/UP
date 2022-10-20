@@ -58,7 +58,7 @@
     <!-- End Banner -->
     <!-- Star About Area
     ============================================= -->
-    <div class="area-titulo shape-left bg-blue-light relative" style="padding-bottom: 5rem;padding-top: 6rem;">
+    <div class="area-titulo shape-left relative" style="padding-bottom: 5rem;padding-top: 6rem;">
         <div class="container">
             <h4 class="text-center font-Saravekreg">Nos aliamos con estas <span class="font-Saravekbold">organizaciones de clase mundial</span> para ayudarte a impulsar tu carrera:</h4>
             <div class="pt-3 row text-center">
@@ -68,7 +68,7 @@
             </div>
         </div>
     </div>
-    <div id="aboutUs" class="pt-5 about-area shape-left bg-blue-light relative" style="padding-bottom: 2rem;">
+    <div id="aboutUs" class="pt-5 about-area shape-left relative" style="padding-bottom: 2rem;">
         <div class="container">
             <div class="items-box">
                 <div class="row">
@@ -432,7 +432,7 @@
                     <div class="heading">
                         <h2 class="font-Laurentiareg" style="color: #000;">
                         <b>Conoce los diferentes tipos de <span style="font-style: italic;">career
-                                path</span> queSalesforce tiene
+                                path</span> que Salesforce tiene
                                 para ti.</b><br>
                         </h2>
                     </div>
@@ -708,12 +708,12 @@
                 <div class="row">
                     <div class="col-lg-5 single-item text-left" style="padding-top: 10rem;">
                         <div class="pb-5 item-custom">
-                            <h2 class="font-Laurentiareg tituloBeneficiosh2" style="color: #000000;text-align: left;"><b>Característas del</b> <br>
-                                <b>programa</b></h2>
-                            <h6 class="font-Saravekreg parrafoTituloBeneficios" style="color: #333333; text-align: left;">
-                            Reconocerás los beneficios, innovaciones y<br>
-                            alcances exponenciales de iniciar una <br>
-                            <b>carrera en Salesforce.</b>
+                            <h2 class="font-Laurentiareg tituloBeneficiosh2" style="color: #000000;text-align: left;"><b>Característas del programa</b></h2>
+                            <p class="font-Saravekreg parrafoTituloBeneficios" style="color: #333333; text-align: left;">
+                                Reconocerás los beneficios, innovaciones y<br>
+                                alcances exponenciales de iniciar una <br>
+                                <b>carrera en Salesforce.</b>
+                            </p>
                         </div>
                         <a class="btn circle btn-sm btn-naranja wow fadeInUp btnVerCursoBeneficios" data-wow-duration="1.8s" href="#cursos" style="border-radius: 16px;visibility: visible; animation-duration: 1.8s; animation-name: fadeInUp;">Ver cursos</a>
                     </div>
@@ -877,7 +877,7 @@
         </div>
     </div>
     <!-- End About Area -->
-    <div id="testimonios" class="testimonials-area default-padding">
+    <!-- <div id="testimonios" class="testimonials-area default-padding">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
@@ -904,7 +904,6 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <h4 style="color: #00215B;padding-bottom: 1rem;" class="font-Novreg">Mtra. Lizbeth<br> Gregorio Avila</h4>
-                                    <!-- <span>CEO of Softing</span> -->
                                     <img src="<?= base_url('assets/img/home/iconoEstrellas1.png') ?>" style="width: 15%;padding-bottom: 1rem;">
                                     <p style="color: #333333;">
                                         Fue muy significativo que a lo largo del curso en vez de situarme
@@ -918,7 +917,6 @@
                                 </div>
                                 <div class="carousel-item">
                                     <h4 style="color: #00215B;padding-bottom: 1rem;">Dra. Gloria de los Ángeles<br> Bennetts Carlock</h4>
-                                    <!-- <span>CEO of Softing</span> -->
                                     <img src="<?= base_url('assets/img/home/iconoEstrellas1.png') ?>" style="width: 15%;padding-bottom: 1rem;">
                                     <p style="color: #333333;">
                                         El curso me ha parecido muy dinámico desde el principio, la mayoría de las actividades de estudio independiente estaban
@@ -930,7 +928,6 @@
                                 </div>
                                 <div class="carousel-item">
                                     <h4 style="color: #00215B;padding-bottom: 1rem;">Dra. Ivonne Estela<br> Martínez Hernández</h4>
-                                    <!-- <span>CEO of Softing</span> -->
                                     <img src="<?= base_url('assets/img/home/iconoEstrellas1.png') ?>" style="width: 15%;padding-bottom: 1rem;">
                                     <p style="color: #333333;">
                                         El valor que imprime el instructor es sin lugar a dudas un sello de calidad del boot camp en su módulo 2, su dinamismo y conocimiento de los temas te brindan confianza en que, aunque estás saturado de aprendizaje llegarás a un lugar seguro en la consolidación de este con tu proyecto.. El grupo también, dinamizado por el instructor, fue un potencial enorme para compartir experiencias, conocer nuestros talentos y retarnos a dar lo mejor de nosotros, vivenciando el curso desde la esencia de nuestras instituciones y renovándonos.
@@ -943,6 +940,112 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div id="testimonios features" class="pt-5 pb-5 our-features-area wavesshape-bottom carousel-shadow default-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 info my-auto">
+                    <h2 class="title text-center pt-5 pb-5 font-Laurentiareg"><b>Testimoniales</b></h2>
+                    <div class="feature-items feature-carousel owl-carousel owl-theme">
+                        <div class="item my-auto mx-auto">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <img src="<?= base_url('assets/img/home/imgLizbeth.png') ?>" alt="Thumb">
+                                </div>
+                                <div class="col-lg-9">
+                                    <p style="font-weight: 700;">Mtra. Lizbeth Gregorio Avila</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <img src="<?= base_url('assets/img/home/iconoEstrellas1.png') ?>" style="width: 40%;padding-bottom: 1rem;padding-top: 1rem;">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <p class="font-Novreg" style="color: #000000;font-weight: 500;">
+                                        Fue muy significativo que a lo largo del curso en vez de situarme
+                                        como una estudiante o usuario, asumí el rol de arquitecto cognitivo.
+                                        Este último término fue el impulso para que en mi formación profesional
+                                        tuvieran sentido las herramientas y metodologías desde una pedagogía
+                                        centrada en el alumno y las cuales me permitieran hacer un puente
+                                        entre un aprendizaje holístico mediado por la tecnología y los retos
+                                        que demanda la educación contemporánea. ¡Una increíble experiencia!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item my-auto mx-auto">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <img src="<?= base_url('assets/img/home/imgIvonne.png') ?>" alt="Thumb">
+                                </div>
+                                <div class="col-lg-9">
+                                    <p style="font-weight: 700;">Dra. Gloria de los Ángeles<br> Bennetts Carlock</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <img src="<?= base_url('assets/img/home/iconoEstrellas1.png') ?>" style="width: 40%;padding-bottom: 1rem;padding-top: 1rem;">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <p class="font-Novreg" style="color: #000000;font-weight: 500;">
+                                        El curso me ha parecido muy dinámico desde el principio, la mayoría de las  
+                                        actividades de estudio independiente estaban diseñadas desde un enfoque 
+                                        constructivista, sobre todo el proyecto integrador, lo que ayudó a unificar mis 
+                                        funciones laborales con las necesidades del contexto en el cual me encuentro inmersa. 
+
+                                        Por otro lado, integrar una hora de tutoría semanal ayudó a explorar más a 
+                                        fondo algunas temáticas que quedaban sueltas durante las sesiones de 
+                                        aprendizaje guiadas por el asesor, otra de las cosas que note fue la mejora de  
+                                        la narrativa académica en cuanto a los contenidos educativos alojados en la  
+                                        plataforma LMS. Por último, finalizo con un enorme agradecimiento a todo el  
+                                        equipo que diseñó y llevó a cabo la presente oferta educativa, debido a que  
+                                        fue uno de los diplomados más retadores que curse en los últimos años.   
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item my-auto mx-auto">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <img src="<?= base_url('assets/img/home/imgGloria.png') ?>" alt="Thumb">
+                                </div>
+                                <div class="col-lg-9">
+                                    <p style="font-weight: 700;">Dra. Ivonne Estela<br> Martínez Hernández</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <img src="<?= base_url('assets/img/home/iconoEstrellas1.png') ?>" style="width: 40%;padding-bottom: 1rem;padding-top: 1rem;">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <p class="font-Novreg" style="color: #000000;font-weight: 500;">
+                                        El valor que imprime el instructor es sin lugar a dudas un sello de calidad 
+                                        del boot camp en su módulo 2, su dinamismo y conocimiento de los temas 
+                                        te brindan confianza en que, aunque estás saturado de aprendizaje llegarás 
+                                        a un lugar seguro en la consolidación de este con tu proyecto.. 
+                                        El grupo también, dinamizado por el instructor, fue un potencial enorme 
+                                        para compartir experiencias, conocer nuestros talentos y retarnos a 
+                                        dar lo mejor de nosotros, vivenciando el curso desde la esencia de 
+                                        nuestras instituciones y renovándonos.
+                                        Se percibe un equipo armonioso de trabajo en el bootcamp, 
+                                        el apoyo técnico, los invitados que nos compartieron de guion y producción,
+                                        lo cual redondea excelente el curso.
+                                        Muchas gracias por esta experiencia detonadora de cambios en mi vida profesional.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>             
             </div>
         </div>
     </div>
@@ -1018,5 +1121,6 @@
             </div>
         </div>
     </div>
+    
     <!-- Star Footer
     ============================================= -->
