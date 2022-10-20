@@ -831,7 +831,7 @@
                 <div class="row">
                     <div class="col-lg-7 info">
                         <h2 class="font-Laurentiareg" style="color: #000000;padding-bottom: 2rem;"><b>Beneficios<br> del programa</b></h2>
-                        <ul style="display: flex; flex-direction: column;">
+                        <ul class="listaBeneficios">
                             <li class="li-beneficios">
                                 <h5 class="font-Saravekreg" style="color: #000000;font-size: 18px;">Vinculación laboral</h5>
                                 <p class="font-Saravekreg">
@@ -844,7 +844,7 @@
                                     garantizamos recibir al menos 1 oferta de empleo 
                                     durante los siguientes 3 meses.</b>
                                 </p>
-                                <div class="row">
+                                <div class="row beneficios-img">
                                     <div class="col-md-12">
                                         <img src="<?= base_url('assets/img/home/logoUniversia.png') ?>" alt="Thumb" style="width: 60%;">
                                     </div>
@@ -861,7 +861,7 @@
                                 parte de Salesforce en cualquiera de los <br>
                                 career path que decidas incursionar.<br>
                                 </p>
-                                <div class="row">
+                                <div class="row beneficios-img">
                                     <div class="col-md-12">
                                         <img src="<?= base_url('assets/img/home/salesforcePartner.png') ?>" alt="Thumb" style="width: 60%;">
                                     </div>

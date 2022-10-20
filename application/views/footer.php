@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="equal-height col-lg-3 col-md-6 item">
                     <div class="f-item about">
-                        <img src="<?= base_url('assets/img/logoPanamericanoFooter.png') ?>" alt="Logo" style="max-width: 100%;margin-left: -2rem;">
+                        <img class="imgFooterUp" src="<?= base_url('assets/img/logoPanamericanoFooter.png') ?>" alt="Logo" style="max-width: 100%;margin-left: -2rem;">
                     </div>
                 </div>
                 <div class="equal-height col-lg-2 col-md-6 item">
