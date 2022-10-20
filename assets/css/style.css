@@ -7530,7 +7530,7 @@ ul.containerVertical li:nth-child(2) div.imgIconoVertical {
     content: "";
     width: 50px !important;
     height: 50px !important;
-    background-image: url(../img/home/puntosAzulesBeneficios.png);
+    background-image: url(../img/home/puntosCafeBeneficios.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7543,7 +7543,7 @@ ul.containerVertical li:nth-child(2) div.imgIconoVertical {
     content: "";
     width: 50px !important;
     height: 50px !important;
-    background-image: url(../img/home/puntosAzulesBeneficios.png);
+    background-image: url(../img/home/puntosCafeBeneficios.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -7558,14 +7558,20 @@ ul.containerVertical li:nth-child(2) div.imgIconoVertical {
   }
   
   .banner-area{
-    background-image: url(https://salesforce.emtech.digital/assets/img/home/bannerHome2.png);
-    height: 20rem !important;
+    background-image: url(../../assets/img/home/bannerUniversia.png);
+    /* height: 20rem !important;
     top: 64px !important;
     left: 0px !important;
-    z-index: 1 !important;
+    z-index: 1 !important; */
+
+    height: 18rem !important;
+    top: 64px !important;
+    left: 0px !important;
+    z-index: -1 !important;
+    background-position-x: right
   }
   .box-table{
-      height:16rem !important;
+      height:18rem !important;
   }
   .banner-area.text-combo h2 {
     font-size: 24px !important;
@@ -7642,6 +7648,21 @@ ul.containerVertical li:nth-child(2) div.imgIconoVertical {
       max-width: 65% !important;
       margin-left: 2rem !important;
     }
+    .banner-area .double-items{
+      padding-top: 2rem !important;
+    }
+
+    .area-titulo.shape-left::before {
+      position: absolute !important;
+      left: 80% !important;
+      top: 15% !important;
+      content: "";
+      width: 9% !important;
+      height: 11% !important;
+      background-image: url(../img/home/puntosCafe.png) !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
