@@ -1242,7 +1242,7 @@ ul {
 }
 
 .bg-gray {
-  background: #F0F4F9;
+  background: #F4F4F4;
 }
 
 .bg-black {
@@ -4299,7 +4299,7 @@ footer .f-items .f-item.link li {
 footer .f-items .f-item.link li a {
   display: inline-block;
   color: #666666;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 footer.bg-dark .f-items .f-item.link li a {
@@ -4307,7 +4307,7 @@ footer.bg-dark .f-items .f-item.link li a {
 }
 
 footer.bg-dark p {
-  color: #cccccc;
+  color: #000000;
 }
 
 footer .f-items .f-item.link li a:hover {
@@ -4532,6 +4532,11 @@ footer .footer-bottom p a {
   .card-pagos .curso-nombre{
     text-align: center !important;
   } 
+
+  .imgFooterUp{
+    max-width: 65% !important;
+    margin-left: 2rem !important;
+  }
 }
 /* ============================================================== 
      # Our Features
@@ -6442,6 +6447,23 @@ footer .footer-bottom p a {
     box-shadow: 0px 16px 72px rgba(31, 31, 51, 0.06);
     border-radius: 10px;
 }
-
+.lineaBanner {
+  border: 1px solid #6A6A6A;
+  width: auto;
+  opacity: 1;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 0rem;
+}
+.text-light h1, 
+ .text-light h2, 
+ .text-light h3, 
+ .text-light h4, 
+ .text-light h5, 
+ .text-light h6, 
+ .text-light p, 
+ .text-light a {
+  color: #ffffff;
+}
   
   

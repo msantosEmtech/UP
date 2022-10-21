@@ -109,8 +109,8 @@ if (isset($_GET['c'])) {
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="<?= base_url('Home') ?>">
-                        <img src="<?= base_url('assets/img/logo-emtech.svg') ?>" class="logo logo-display" alt="Logo" style="width: 250px;">
-                        <img src="<?= base_url('assets/img/logo-emtech2.svg') ?>" class="logo logo-scrolled" alt="Logo" style="width: 180px;">
+                        <img src="<?= base_url('assets/img/logoUniversia1.svg') ?>" class="logo logo-display" alt="Logo" style="width: 250px;">
+                        <img src="<?= base_url('assets/img/logoUniversia2.svg') ?>" class="logo logo-scrolled" alt="Logo" style="width: 180px;">
                     </a>
                 </div>
                 <!-- End Header Navigation -->
@@ -612,7 +612,7 @@ if (isset($_GET['c'])) {
                         <div class="item">
                             <div class="icon">
                                 <i class="flaticon-problem">
-                                    <img style="width:2rem" src="<?= base_url('assets/course/img/proceso1.svg') ?>" alt="img" class="center">
+                                    <img style="width:3rem" src="<?= base_url('assets/course/img/proceso1.svg') ?>" alt="img" class="center">
                                 </i>
                                 <span class="font-Novbold">1</span>
                             </div>
@@ -627,7 +627,7 @@ if (isset($_GET['c'])) {
                     <div class="col-lg-4 single-item">
                         <div class="item">
                             <div class="icon my-auto">
-                                <i class="flaticon-problem"><img style="width:2rem" src="<?= base_url('assets/course/img/proceso3.svg') ?>" alt="img"></i>
+                                <i class="flaticon-problem"><img style="width:3rem" src="<?= base_url('assets/course/img/proceso3.svg') ?>" alt="img"></i>
                                 <span class="font-Novbold">2</span>
                             </div>
                             <div class="info">
@@ -641,7 +641,7 @@ if (isset($_GET['c'])) {
                     <div class="col-lg-4 single-item">
                         <div class="item">
                             <div class="icon">
-                                <i class="flaticon-problem"><img style="width:2rem" src="<?= base_url('assets/course/img/proceso2.svg') ?>" alt="img"></i>
+                                <i class="flaticon-problem"><img style="width:3rem" src="<?= base_url('assets/course/img/proceso2.svg') ?>" alt="img"></i>
                                 <span class="font-Novbold">3</span>
                             </div>
                             <div class="info">
@@ -945,7 +945,7 @@ if (isset($_GET['c'])) {
             <div class="row">
                 <div class="heading-left col-lg-6 pb-2 pt-5">
                     <div class="mt-5 pl-5 col-lg-12">
-                        <h2 class="font-Laurentiareg"> Nuestras Alianzas</h2>
+                        <h2 class="font-Laurentiareg"> Nuestra Alianzas</h2>
                         <p class="font-Saravekreg mt-5">A lo largo de los años hemos construido relaciones con distintos actores clave del ecosistema global que han contribuido al diseño del contenido.</p>
                     </div>
                 </div>
@@ -973,12 +973,12 @@ if (isset($_GET['c'])) {
             <div class="container">
                 <div class="f-items default-padding">
                     <div class="row">
-                        <div class="equal-height col-lg-3 col-md-6 item">
+                        <div class="equal-height col-lg-2 col-md-6 item">
                             <div class="f-item link">
-                                <img src="<?= base_url('assets/img/logo-panamericana.png')?>" alt="" srcset="">
+                                <img class="imgFooterUp" src="<?= base_url('assets/img/logo-panamericana.png')?>" alt="" srcset="" style="max-width: 100%;margin-left: -5rem;">
                             </div>
                         </div>
-                        <div class="equal-height col-lg-3 col-md-6 item">
+                        <div class="equal-height col-lg-2 col-md-6 item">
                             <div class="f-item link">
                                 <!-- <h4 class="widget-title">Inicio</h4> -->
                                 <ul>
@@ -989,7 +989,7 @@ if (isset($_GET['c'])) {
                                         <a href="<?= base_url('Home') ?>#aboutUs">¿Qué hacemos?</a>
                                     </li>
                                     <li>
-                                        <a href="<?= base_url('Faqs') ?>">Preguntas frecuentes</a>
+                                        <a href="<?= base_url('Faqs') ?>">¿Cómo lo hacemos?</a>
                                     </li>
                                 </ul>
                             </div>
@@ -998,7 +998,7 @@ if (isset($_GET['c'])) {
                         <div class="equal-height col-lg-3 col-md-6 item">
                             <div class="f-item link">
                                <!--  <h4 class="widget-title">Cursos</h4> -->
-                                <ul>
+                               <ul>
                                     <li>
                                         <a href="<?= base_url('SalesforceAdministrator') ?>">Salesforce Administrator</a>
                                     </li>
@@ -1012,7 +1012,7 @@ if (isset($_GET['c'])) {
                             </div>
                         </div>
 
-                        <div class="equal-height col-lg-3 col-md-6 item">
+                        <div class="equal-height col-lg-2 col-md-6 item">
                             <div class="f-item link">
                                 <!-- <h4 class="widget-title">El programa</h4> -->
                                 <ul>
@@ -1026,7 +1026,7 @@ if (isset($_GET['c'])) {
                                         <a href="<?= base_url('Home') ?>#testimonios">Testimoniales</a>
                                     </li>
                                     <li>
-                                        <a href="#">Nuestra Alianza</a>
+                                        <a href="<?= base_url('Home') ?>#about">Nuestra Alianza</a>
                                     </li>
                                 </ul>
                             </div>
@@ -1035,18 +1035,22 @@ if (isset($_GET['c'])) {
                         <div class="equal-height col-lg-3 col-md-6 item">
                             <div class="f-item contact">
                                <!--  <h4 class="widget-title" style="color:#FFF">Contáctanos</h4> -->
-                                <p>
-                                    Síguenos en nuestras redes sociales.
+                                <p class="font-Novreg">
+                                ¿Estás listo para dar ese salto hacia <b>tu éxito profesional?</b>
+                        Tu oportunidad de llegar a las nubes, está en Salesforce
                                 </p>
                                 <ul class="social">
                                     <li>
                                         <a href="https://www.facebook.com/emtech.inst"><img src="<?= base_url('assets/img/home/iconoFacebook.png') ?>"></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/emtech.inst/"><img src="<?= base_url('assets/img/home/iconoInstagram.png') ?>"></a>
+                                        <a href="https://www.facebook.com/emtech.inst"><img src="<?= base_url('assets/img/home/iconTwitter.png') ?>"></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.facebook.com/emtech.inst"><img src="<?= base_url('assets/img/home/iconoLinkedin.png') ?>"></a>
+                                        <a href="https://www.instagram.com/emtech.inst/"><img src="<?= base_url('assets/img/home/iconoInstagram.png') ?>"></a>
+                                    </li>                                
+                                    <li>
+                                        <a href="https://www.facebook.com/emtech.inst"><img src="<?= base_url('assets/img/home/iconoPinterest.png') ?>"></a>
                                     </li>
                                 </ul>
                             </div>
@@ -1054,14 +1058,15 @@ if (isset($_GET['c'])) {
                     </div>
                 </div>
             </div>
+            <hr class="lineaBanner">
         </footer>
-        <div class="p-2 footer-bottom" style="background-color: #E8E9EB;">
+        <div class="pt-5 footer-bottom" style="background-color: rgba(232, 233, 235, 0.7);">
             <div class="row container">
-                <div class="col-lg-2 col-md" style="padding-left: 2rem;">
-                    <img src="<?= base_url('assets/img/logo-emtech2.svg') ?>" style="width: 90%;">
+                <div class="col-lg-2 col-md" style="padding-left: 2rem;padding-bottom: 2rem;">
+                    <img src="<?= base_url('assets/img/home/footerLogo.png') ?>" style="width: 100%;">
                 </div>
-                <div class="col-10 col-md my-auto">
-                    <small class="d-block mb-3 text-muted my-auto" style="color: #00215B !important;">
+                <div class="col-10 col-md-10 div-text-footer">
+                    <small class="d-block mb-3 text-muted" style="color: #000 !important;font-weight: 600;">
                         Emerging Technologies Institute | All Rights Reserved
                     </small>
                 </div>

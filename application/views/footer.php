@@ -2,9 +2,9 @@
     <div class="container">
         <div class="f-items default-padding">
             <div class="row">
-                <div class="equal-height col-lg-3 col-md-6 item">
+                <div class="equal-height col-lg-2 col-md-6 item">
                     <div class="f-item about">
-                        <img class="imgFooterUp" src="<?= base_url('assets/img/logoPanamericanoFooter.png') ?>" alt="Logo" style="max-width: 100%;margin-left: -2rem;">
+                        <img class="imgFooterUp" src="<?= base_url('assets/img/logoPanamericanoFooter.png') ?>" alt="Logo" style="max-width: 100%;margin-left: -5rem;">
                     </div>
                 </div>
                 <div class="equal-height col-lg-2 col-md-6 item">
@@ -17,13 +17,13 @@
                                 <a href="<?= base_url('Home') ?>#aboutUs">¿Qué hacemos?</a>
                             </li>
                             <li>
-                                <a href="<?= base_url('Faqs') ?>">Preguntas frecuentes</a>
+                                <a href="<?= base_url('Faqs') ?>">¿Cómo lo hacemos?</a>
                             </li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="equal-height col-lg-2 col-md-6 item">
+                <div class="equal-height col-lg-3 col-md-6 item">
                     <div class="f-item link">
                         <ul>
                             <li>
@@ -77,7 +77,6 @@
                             <li>
                                 <a href="https://www.facebook.com/emtech.inst"><img src="<?= base_url('assets/img/home/iconoPinterest.png') ?>"></a>
                             </li>
-                            
                         </ul>
                     </div>
                 </div>
