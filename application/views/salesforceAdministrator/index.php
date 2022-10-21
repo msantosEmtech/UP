@@ -679,10 +679,10 @@ if (isset($_GET['c'])) {
                                     <a href="" data-target="#tab2" data-toggle="tab" class="nav-link"><span class="font-Novbold">Fechas de inicio</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="" data-target="#tab3" data-toggle="tab" class="nav-link"><span class="font-Novbold">Facilidades de pago</span></a>
+                                    <a href="" data-target="#tab3" data-toggle="tab" class="nav-link"><span class="font-Novbold">Costo</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="" data-target="#tab4" data-toggle="tab" class="nav-link"><span class="font-Novbold">Costo</span></a>
+                                    <a href="" data-target="#tab4" data-toggle="tab" class="nav-link"><span class="font-Novbold">Requisitos</span></a>
                                 </li>
                             </ul>
                             <div id="tabsContent" class="tab-content wow fadeInUp" data-wow-delay="0.5s">
