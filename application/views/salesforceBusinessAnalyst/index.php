@@ -247,7 +247,7 @@
                         <div class="about-inner-wrap pl-xl-4 pt-3 pt-lg-0 mt-lg-0">
                             <div class="section-title mb-0">
                                 <h2 class="title font-Laurentiareg" style="color: #000000;">Acerca del curso</h2>
-                                <h6 class="content font-Novbold" style="color:#000000;font-weight:500">Conviértete en un experto en implementación de la innovación digital de<span class="font-Novbold font-Novbold"> Salesforce,</span> gestionando las herramientas más importantes del ecosistema en cualquier industria, a través del rol <span class="font-Novbold">Salesforce Administrator.</span></h6>
+                                <!-- <h6 class="content font-Novbold" style="color:#000000;font-weight:500">Conviértete en un experto en implementación de la innovación digital de<span class="font-Novbold font-Novbold"> Salesforce,</span> gestionando las herramientas más importantes del ecosistema en cualquier industria, a través del rol <span class="font-Novbold">Salesforce Administrator.</span></h6> -->
                                 <ul class="single-list-wrap">
                                     <li class="single-list-inner style-check-box-grid">
                                         <div class="media">
@@ -255,7 +255,7 @@
                                                 <i class="fa fa-check fa-xl"></i>
                                             </div>
                                             <div class="media-body">
-                                                <p class="font-Novreg">
+                                                <p class="font-Saravekreg">
                                                     Desarrollarás el conocimiento técnico, destrezas y habilidades
                                                     necesarias para la certificación como <b>Salesforce Business Analyst</b> 
                                                     y contribuirás sustancialmente en la generación de valor en configuraciones, 
@@ -270,7 +270,7 @@
                                                 <i class="fa fa-check fa-xl"></i>
                                             </div>
                                             <div class="media-body">
-                                                <p class="font-Novreg">Tendrás la capacidad de entrenar a otros en el uso de la plataforma, 
+                                                <p class="font-Saravekreg">Tendrás la capacidad de entrenar a otros en el uso de la plataforma, 
                                                     recomendar las mejores prácticas de la industria de <b>Salesforce</b> y convertirte en esa persona 
                                                     de confianza, que genera una comunicación efectiva entre la parte técnica y la parte 
                                                     del negocio en las empresas, durante procesos de <b>implementación de las nubes de Salesforce.</b></p>
@@ -287,7 +287,7 @@
                                                         <div class="col-1">
                                                             <i class="fa fa-triangle-exclamation fa-xl" style="color:#F8D849;"></i>
                                                         </div>
-                                                        <div class="col-10 font-Novbold color-sf" style="line-height:20px;">
+                                                        <div class="col-10 font-Novbold" style="line-height:20px;color:#8D0537;">
                                                             Previamente a incursionar en el rol Salesforce Business Analyst, deberás contar con la certificación oficial en Salesforce Administrator.
                                                         </div>                                                        
                                                     </div>
@@ -376,7 +376,7 @@
                                     <img style="width:2.5rem;display:inline-block" src="<?= base_url('assets/course/img/icon-carrusel-2.svg') ?>">
                                 </div>
                                 <div class="col-12 txt-item">
-                                    <p class="font-Novbold">
+                                    <p class="font-Saravekreg">
                                         Entendimiento del cliente (Discovery).
                                     </p>
                                 </div>
@@ -391,7 +391,7 @@
                                     <img style="width:2.5rem;display:inline-block" src="<?= base_url('assets/course/img/icon-carrusel-2.svg') ?>">
                                 </div>
                                 <div class="col-12 txt-item">
-                                    <p class="font-Novbold">
+                                    <p class="font-Saravekreg">
                                         Colaboración con Stakeholders o involucrados del negocio.
                                     </p>
                                 </div>
@@ -405,7 +405,7 @@
                                     <img style="width:2.5rem;display:inline-block" src="<?= base_url('assets/course/img/icon-carrusel-2.svg') ?>">
                                 </div>
                                 <div class="col-12 txt-item">
-                                    <p class="font-Novbold">
+                                    <p class="font-Saravekreg">
                                         Mapeo de Procesos de negocio.
                                     </p>
                                 </div>
@@ -419,7 +419,7 @@
                                     <img style="width:2.5rem;display:inline-block" src="<?= base_url('assets/course/img/icon-carrusel-2.svg') ?>">
                                 </div>
                                 <div class="col-12 txt-item">
-                                    <p class="font-Novbold">
+                                    <p class="font-Saravekreg">
                                         Requerimientos e Historia de usuarios.
                                     </p>
                                 </div>
@@ -433,7 +433,7 @@
                                     <img style="width:2.5rem;display:inline-block" src="<?= base_url('assets/course/img/icon-carrusel-2.svg') ?>">
                                 </div>
                                 <div class="col-12 txt-item">
-                                    <p class="font-Novbold">
+                                    <p class="font-Saravekreg">
                                         Gestión de Aceptación del usuario (UAT).
                                     </p>
                                 </div>
@@ -574,7 +574,7 @@
                                 <span class="font-Novbold">1</span>
                             </div>
                             <div class="info">
-                                <h6>Aplica</h6>
+                                <h6 class="font-Saravekreg">Aplica</h6>
                             </div>
                         </div>
                     </div>
@@ -588,7 +588,7 @@
                                 <span class="font-Novbold">2</span>
                             </div>
                             <div class="info">
-                                <h6>Elige fecha y <br>asegura tu lugar</h6>
+                                <h6 class="font-Saravekreg">Elige fecha y <br>asegura tu lugar</h6>
                             </div>
                         </div>
                     </div>
@@ -602,7 +602,7 @@
                                 <span class="font-Novbold">3</span>
                             </div>
                             <div class="info">
-                                <h6>Comienza el curso</h6>
+                                <h6 class="font-Saravekreg">Inicia el curso</h6>
                             </div>
                         </div>
                     </div>
@@ -630,16 +630,16 @@
                         <div class="center-tabs">
                             <ul id="tabs" class="nav nav-tabs">
                                 <li class="nav-item">
-                                    <a href="" data-target="#tab1" data-toggle="tab" class="active nav-link"><span class="font-Novbold">Aplicación</span></a>
+                                    <a href="" data-target="#tab1" data-toggle="tab" class="active nav-link"><span class="font-Saravekreg">Aplicación</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="" data-target="#tab2" data-toggle="tab" class="nav-link"><span class="font-Novbold">Fechas de inicio</span></a>
+                                    <a href="" data-target="#tab2" data-toggle="tab" class="nav-link"><span class="font-Saravekreg">Fechas de inicio</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="" data-target="#tab3" data-toggle="tab" class="nav-link"><span class="font-Novbold">Costo</span></a>
+                                    <a href="" data-target="#tab3" data-toggle="tab" class="nav-link"><span class="font-Saravekreg">Costo</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="" data-target="#tab4" data-toggle="tab" class="nav-link"><span class="font-Novbold">Requisitos</span></a>
+                                    <a href="" data-target="#tab4" data-toggle="tab" class="nav-link"><span class="font-Saravekreg">Requisitos</span></a>
                                 </li>
                             </ul>
                             <div id="tabsContent" class="tab-content wow fadeInUp" data-wow-delay="0.5s">
@@ -655,7 +655,7 @@
                                                                     <i class="fa fa-check fa-xl"></i>
                                                                 </div>
                                                                 <div class="media-body">
-                                                                    <p style="line-height:20px">El objetivo del diagnóstico de competencias es identificar las habilidades y actitudes que se vinculan con los perfiles profesionales de una carrera exitosa en <b>Salesforce.</b></p>
+                                                                    <p class="font-Saravekreg" style="line-height:20px">El objetivo del diagnóstico de competencias es identificar las habilidades y actitudes que se vinculan con los perfiles profesionales de una carrera exitosa en <b>Salesforce.</b></p>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -665,7 +665,7 @@
                                                                     <i class="fa fa-check fa-xl"></i>
                                                                 </div>
                                                                 <div class="media-body">
-                                                                    <p style="line-height:20px">Al terminar este diagnóstico, te daremos una perspectiva con base en tus respuestas, para determinar si eres elegible o no para el curso.</p>
+                                                                    <p class="font-Saravekreg" style="line-height:20px">Al terminar este diagnóstico, te daremos una perspectiva con base en tus respuestas, para determinar si eres elegible o no para el curso.</p>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -700,7 +700,7 @@
                                                                     <img src="<?= base_url('assets/course/img/dates-icon.svg') ?>" style="width:3.5rem">
                                                                 </div>
                                                                 <div class="col-md-8 pl-0 curso-nombre my-auto">
-                                                                    <h6 class="font-Novbold" style="line-height:22px;margin-bottom:0px;color:#333333"><b>Salesforce Business Analyst<br> <span class="font-Novbold color-sf font-Novbold">Próximamente</span></b></h6>
+                                                                    <h6 class="font-Saravekreg" style="line-height:22px;margin-bottom:0px;color:#333333"><b>Salesforce Business Analyst<br> <span class="font-Saravekreg color-sf">Próximamente</span></b></h6>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -716,7 +716,7 @@
                                 <div id="tab3" class="tab-pane fade">
                                     <div class="row align-center pb-4 equal-cols">
                                         <div class="col-12 text-center pl-4 pr-4 pb-5 pt-2 mb-4">
-                                            <h6>Queremos que el pago sea la menor de tus preocupaciones y te enfoques en acelerar
+                                            <h6 class="font-Saravekreg">Queremos que el pago sea la menor de tus preocupaciones y te enfoques en acelerar
                                                 tu desarrollo profesional, por eso te ofrecemos diversas opciones de pago.
                                             </h6>
                                         </div>
@@ -724,7 +724,7 @@
                                             <div class="card card-pagos">
                                                 <div class="card-body text-center">
                                                     <img src="<?= base_url('assets/course/img/pagos-icon.svg') ?>" alt="Thumb" style="width:4rem;padding-bottom:1rem">
-                                                    <p style="line-height:24px">Realiza tu pago de <span class="color-sf font-Novbold">forma segura</span> por medio de tu tarjeta de crédito o de débito.</p>
+                                                    <p class="font-Saravekreg" style="line-height:24px">Realiza tu pago de <span class="color-sf font-Saravekreg">forma segura</span> por medio de tu tarjeta de crédito o de débito.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -732,7 +732,7 @@
                                             <div class="card card-pagos">
                                                 <div class="card-body text-center">
                                                     <img src="<?= base_url('assets/course/img/pagos-icon.svg') ?>" alt="Thumb" style="width:4rem;padding-bottom:1rem">
-                                                    <p style="line-height:24px">Difiere tu pago hasta en <span class="color-sf font-Novbold">24 mensualidades con cuota fija</span> utilizando tu tarjeta de crédito.</p>
+                                                    <p class="font-Saravekreg" style="line-height:24px">Difiere tu pago hasta en <span class="color-sf font-Saravekreg">24 mensualidades con cuota fija</span> utilizando tu tarjeta de crédito.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -740,7 +740,7 @@
                                             <div class="card card-pagos">
                                                 <div class="card-body text-center">
                                                     <img src="<?= base_url('assets/course/img/pagos-icon.svg') ?>" alt="Thumb" style="width:4rem;padding-bottom:1rem">
-                                                    <p style="line-height:24px">Difiere tu pago hasta en <span class="color-sf font-Novbold">5 quincenas sin intereses.</span></p>
+                                                    <p class="font-Saravekreg" style="line-height:24px">Difiere tu pago hasta en <span class="color-sf font-Saravekreg">5 quincenas sin intereses.</span></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -751,13 +751,13 @@
                                         <div class="col-lg-7 col-md-7  col-xs-12 info pb-3 my-auto">
                                             <div class="text-center">
                                                 <img class="pb-4" src="<?= base_url('assets/course/img/pc-costo.png') ?>" alt="Thumb">
-                                                <h4>Salesforce <span style="color:#B69256">Business Analyst</span></h4>
+                                                <h4 class="font-Saravekreg">Salesforce <span style="color:#B69256">Business Analyst</span></h4>
                                             </div>
                                         </div>
                                         <div class="col-lg-5 col-md-5  col-xs-12 info pb-3">
                                             <div class="about-inner-wrap pl-xl-4 pt-3 pt-lg-0 mt-lg-0">
                                                 <div class="section-title mb-0">
-                                                    <h2 style="color:#282827;padding-left:10px">MX$25,000</h2>
+                                                    <h2 class="font-Saravekreg" style="color:#282827;padding-left:10px">MX$25,000</h2>
                                                     <ul class="single-list-wrap">
                                                         <li class="single-list-inner style-check-box-grid costo my-auto">
                                                             <div class="media">
@@ -765,7 +765,7 @@
                                                                     <i class="fa-solid fa-circle-check"></i>
                                                                 </div>
                                                                 <div class="media-body">
-                                                                    <h6>Acompañamiento de un experto</h6>
+                                                                    <h6 class="font-Saravekreg">Acompañamiento de un experto</h6>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -775,7 +775,7 @@
                                                                     <i class="fa-solid fa-circle-check"></i>
                                                                 </div>
                                                                 <div class="media-body">
-                                                                    <h6>Examen de certificación</h6>
+                                                                    <h6 class="font-Saravekreg">Examen de certificación</h6>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -785,7 +785,7 @@
                                                                     <i class="fa-solid fa-circle-check"></i>
                                                                 </div>
                                                                 <div class="media-body">
-                                                                    <h6>Acceso a comunidad EmTech</h6>
+                                                                    <h6 class="font-Saravekreg">Acceso a comunidad EmTech</h6>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -795,7 +795,7 @@
                                                                     <i class="fa-solid fa-circle-check"></i>
                                                                 </div>
                                                                 <div class="media-body">
-                                                                    <h6>Garantía de empleo</h6>
+                                                                    <h6 class="font-Saravekreg">Garantía de empleo</h6>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -846,7 +846,7 @@
                                 <a href="SalesforceBusinessAnalyst">
                                     <img src="<?= base_url('assets/course/img/analyst.png') ?>" alt="Thumb">
                                     <div class="date text-left">
-                                        <span class="font-Novbold"><strong>Próximamente <br></strong></span>
+                                        <span class="font-Saravekreg"><strong>Próximamente <br></strong></span>
                                     </div>
                                 </a>
                             </div>
@@ -870,7 +870,7 @@
                                 <a href="SalesforceDeveloper">
                                     <img src="<?= base_url('assets/course/img/developer.png') ?>" alt="Thumb">
                                     <div class="date text-left">
-                                        <span class="font-Novbold"><strong>Octubre <br> 2022</strong></span>
+                                        <span class="font-Saravekreg"><strong>Octubre <br> 2022</strong></span>
                                     </div>
                                 </a>
                             </div>
