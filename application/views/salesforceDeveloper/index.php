@@ -246,7 +246,7 @@
                     <div class="col-lg-6 my-auto">
                         <div class="about-inner-wrap pl-xl-4 pt-3 pt-lg-0 mt-lg-0">  
                             <div class="section-title mb-0">
-                            <h2 class="title font-Laurentiareg" style="color: #000000;">Acerca del curso</h2>
+                            <h2 class="font-Saravekreg" class="title font-Laurentiareg" style="color: #000000;">Acerca del curso</h2>
                                 <p class="content" style="color:#000000;font-weight:500"">
                                 El participante demostrará las competencias para aplicar a la 
                                 certificación <span class="font-Novbold">"Salesforce Developer Platform I"</span> 
@@ -260,7 +260,7 @@
                                                 <i class="fa fa-check fa-xl"></i>
                                             </div>
                                             <div class="media-body">
-                                                <p class="font-Novreg">
+                                                <p class="font-Saravekreg">
                                                     Obtendrás el desarrollo de tus capacidades para la automatización
                                                     de procesos declarativos dentro 
                                                     de la <span class="font-Novbold">plataforma Salesforce,</span> que 
@@ -275,7 +275,7 @@
                                                 <i class="fa fa-check fa-xl"></i>
                                             </div>
                                             <div class="media-body">
-                                                <p class="font-Novreg">Incorporarás en la página de <span class="font-Novbold">Visualforce, las aplicaciones de la plataforma Lightning,</span> descubriendo el potencial de sus beneficios y los tipos de contenido que se pueden incluir en los componentes <span class="font-Novbold">web Lightning.</span> Realizar diferentes prácticas con las que podrás enfrentarte en el mundo laboral como desarrollador, con la finalidad de que puedas obtener un aprendizaje más significativo.</p>
+                                                <p class="font-Saravekreg">Incorporarás en la página de <span class="font-Novbold">Visualforce, las aplicaciones de la plataforma Lightning,</span> descubriendo el potencial de sus beneficios y los tipos de contenido que se pueden incluir en los componentes <span class="font-Novbold">web Lightning.</span> Realizar diferentes prácticas con las que podrás enfrentarte en el mundo laboral como desarrollador, con la finalidad de que puedas obtener un aprendizaje más significativo.</p>
                                             </div>
                                         </div>
                                     </li>
@@ -364,7 +364,7 @@
                                     <img style="width:2.5rem;display:inline-block" src="<?= base_url('assets/course/img/icon-carrusel-2.svg') ?>">
                                 </div>
                                 <div class="col-12 txt-item">
-                                    <p class="font-Novbold">
+                                    <p class="font-Saravekreg">
                                         Desarrollo de habilidades para la conexión de Salesforce con sistemas o plataformas externas.
                                     </p>
                                 </div>                                
@@ -379,7 +379,7 @@
                                     <img style="width:2.5rem;display:inline-block" src="<?= base_url('assets/course/img/icon-carrusel-2.svg') ?>">
                                 </div>
                                 <div class="col-12 txt-item">
-                                    <p class="font-Novbold">
+                                    <p class="font-Saravekreg">
                                         Solución a requerimientos de automatización desde configuración estándar hasta desarrollo personalizado.
                                     </p>
                                 </div>                                
@@ -393,7 +393,7 @@
                                     <img style="width:2.5rem;display:inline-block" src="<?= base_url('assets/course/img/icon-carrusel-2.svg') ?>">
                                 </div>
                                 <div class="col-12 txt-item">
-                                    <p class="font-Novbold">
+                                    <p class="font-Saravekreg">
                                         Propiedades fundamentales de la Arquitectura de Salesforce.
                                     </p>
                                 </div>                                
@@ -407,7 +407,7 @@
                                     <img style="width:2.5rem;display:inline-block" src="<?= base_url('assets/course/img/icon-carrusel-2.svg') ?>">
                                 </div>
                                 <div class="col-12 txt-item">
-                                    <p class="font-Novbold">
+                                    <p class="font-Saravekreg">
                                         Características esenciales que integran el cómputo en la nube.
                                     </p>
                                 </div>                                
@@ -549,7 +549,7 @@
                                 <span class="font-Novbold">1</span>
                             </div>
                             <div class="info">
-                                <h6>Aplica</h6>
+                                <h6 class="font-Saravekreg">Aplica</h6>
                             </div>
                         </div>
                     </div>
@@ -563,7 +563,7 @@
                                 <span class="font-Novbold">2</span>
                             </div>
                             <div class="info">
-                                <h6>Elige fecha y <br>asegura tu lugar</h6>
+                                <h6 class="font-Saravekreg">Elige fecha y <br>asegura tu lugar</h6>
                             </div>
                         </div>
                     </div>
@@ -577,7 +577,7 @@
                                 <span class="font-Novbold">3</span>
                             </div>
                             <div class="info">
-                                <h6>Comienza el curso</h6>
+                                <h6 class="font-Saravekreg">Inicia el curso</h6>
                             </div>
                         </div>
                     </div>
@@ -822,7 +822,7 @@
                                 <a href="SalesforceBusinessAnalyst">
                                     <img src="<?= base_url('assets/course/img/analyst.png') ?>" alt="Thumb">
                                     <div class="date text-left">
-                                        <span class="font-Novbold"><strong>Próximamente <br></strong></span>
+                                        <span class="font-Saravekreg"><strong>Próximamente <br></strong></span>
                                     </div>
                                 </a>
                             </div>
@@ -846,7 +846,7 @@
                                 <a href="SalesforceBusinessAnalyst">
                                     <img src="<?= base_url('assets/course/img/analyst.png') ?>" alt="Thumb">
                                     <div class="date text-left">
-                                        <span class="font-Novbold"><strong>Octubre<br> 2022 <br></strong></span>
+                                        <span class="font-Saravekreg"><strong>Octubre<br> 2022 <br></strong></span>
                                     </div>
                                 </a>
                             </div>
