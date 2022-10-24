@@ -362,7 +362,7 @@ if (isset($_GET['c'])) {
                                     <img style="width:2.5rem;display:inline-block" src="<?= base_url('assets/course/img/icon-carrusel-2.svg') ?>">
                                 </div>
                                 <div class="col-12 txt-item">
-                                    <p class="font-Novbold">
+                                    <p class="font-Saravekreg">
                                         Preparación integral para obtener la certificación como Salesforce Administrator.
                                     </p>
                                 </div>
@@ -377,7 +377,7 @@ if (isset($_GET['c'])) {
                                     <img style="width:2.5rem;display:inline-block" src="<?= base_url('assets/course/img/icon-carrusel-2.svg') ?>">
                                 </div>
                                 <div class="col-12 txt-item">
-                                    <p class="font-Novbold">
+                                    <p class="font-Saravekreg">
                                         Exploración y resolución de casos con App Exchange, Mobile App y Chatter.
                                     </p>
                                 </div>
@@ -391,7 +391,7 @@ if (isset($_GET['c'])) {
                                     <img style="width:2.5rem;display:inline-block" src="<?= base_url('assets/course/img/icon-carrusel-2.svg') ?>">
                                 </div>
                                 <div class="col-12 txt-item">
-                                    <p class="font-Novbold">
+                                    <p class="font-Saravekreg">
                                         Automatización de procesos con el uso de herramientas como Process Builder y Flow Builder.
                                     </p>
                                 </div>
@@ -405,7 +405,7 @@ if (isset($_GET['c'])) {
                                     <img style="width:2.5rem;display:inline-block" src="<?= base_url('assets/course/img/icon-carrusel-2.svg') ?>">
                                 </div>
                                 <div class="col-12 txt-item">
-                                    <p class="font-Novbold">
+                                    <p class="font-Saravekreg">
                                         Optimizar los procesos de ventas.
                                     </p>
                                 </div>
@@ -419,7 +419,7 @@ if (isset($_GET['c'])) {
                                     <img style="width:2.5rem;display:inline-block" src="<?= base_url('assets/course/img/icon-carrusel-2.svg') ?>">
                                 </div>
                                 <div class="col-12 txt-item">
-                                    <p class="font-Novbold">
+                                    <p class="font-Saravekreg">
                                         Creación de reportes y tableros interactivos.
                                     </p>
                                 </div>
@@ -433,7 +433,7 @@ if (isset($_GET['c'])) {
                                     <img style="width:2.5rem;display:inline-block" src="<?= base_url('assets/course/img/icon-carrusel-2.svg') ?>">
                                 </div>
                                 <div class="col-12 txt-item">
-                                    <p class="font-Novbold">
+                                    <p class="font-Saravekreg">
                                         Manejo de datos y reglas de validación.
                                     </p>
                                 </div>
@@ -447,7 +447,7 @@ if (isset($_GET['c'])) {
                                     <img style="width:2.5rem;display:inline-block" src="<?= base_url('assets/course/img/icon-carrusel-2.svg') ?>">
                                 </div>
                                 <div class="col-12 txt-item">
-                                    <p class="font-Novbold">
+                                    <p class="font-Saravekreg">
                                         Usos potenciales de Lightning App Builder.
                                     </p>
                                 </div>
@@ -461,7 +461,7 @@ if (isset($_GET['c'])) {
                                     <img style="width:2.5rem;display:inline-block" src="<?= base_url('assets/course/img/icon-carrusel-2.svg') ?>">
                                 </div>
                                 <div class="col-12 txt-item">
-                                    <p class="font-Novbold">
+                                    <p class="font-Saravekreg">
                                         Personalización de objetos, campos y páginas con Lightning Experience.
                                     </p>
                                 </div>
@@ -475,7 +475,7 @@ if (isset($_GET['c'])) {
                                     <img style="width:2.5rem;display:inline-block" src="<?= base_url('assets/course/img/icon-carrusel-2.svg') ?>">
                                 </div>
                                 <div class="col-12 txt-item">
-                                    <p class="font-Novbold">
+                                    <p class="font-Saravekreg">
                                         Mantenimiento de usuarios y opciones de seguridad.
                                     </p>
                                 </div>
@@ -617,7 +617,7 @@ if (isset($_GET['c'])) {
                                 <span class="font-Novbold">1</span>
                             </div>
                             <div class="info">
-                                <h6>Aplica</h6>
+                                <h6 class="font-Saravekreg">Aplica</h6>
                             </div>
                         </div>
                     </div>
@@ -631,7 +631,7 @@ if (isset($_GET['c'])) {
                                 <span class="font-Novbold">2</span>
                             </div>
                             <div class="info">
-                                <h6>Elige fecha y <br>asegura tu lugar</h6>
+                                <h6 class="font-Saravekreg">Elige fecha y <br>asegura tu lugar</h6>
                             </div>
                         </div>
                     </div>
@@ -645,7 +645,7 @@ if (isset($_GET['c'])) {
                                 <span class="font-Novbold">3</span>
                             </div>
                             <div class="info">
-                                <h6>Comienza el curso</h6>
+                                <h6 class="font-Saravekreg">Inicia el curso</h6>
                             </div>
                         </div>
                     </div>
@@ -673,16 +673,16 @@ if (isset($_GET['c'])) {
                         <div class="center-tabs">
                             <ul id="tabs" class="nav nav-tabs">
                                 <li class="nav-item">
-                                    <a href="" data-target="#tab1" data-toggle="tab" class="active nav-link"><span class="font-Novbold">Aplicación</span></a>
+                                    <a href="" data-target="#tab1" data-toggle="tab" class="active nav-link"><span class="font-Saravekreg">Aplicación</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="" data-target="#tab2" data-toggle="tab" class="nav-link"><span class="font-Novbold">Fechas de inicio</span></a>
+                                    <a href="" data-target="#tab2" data-toggle="tab" class="nav-link"><span class="font-Saravekreg">Fechas de inicio</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="" data-target="#tab3" data-toggle="tab" class="nav-link"><span class="font-Novbold">Costo</span></a>
+                                    <a href="" data-target="#tab3" data-toggle="tab" class="nav-link"><span class="font-Saravekreg">Costo</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="" data-target="#tab4" data-toggle="tab" class="nav-link"><span class="font-Novbold">Requisitos</span></a>
+                                    <a href="" data-target="#tab4" data-toggle="tab" class="nav-link"><span class="font-Saravekreg">Requisitos</span></a>
                                 </li>
                             </ul>
                             <div id="tabsContent" class="tab-content wow fadeInUp" data-wow-delay="0.5s">
@@ -698,7 +698,7 @@ if (isset($_GET['c'])) {
                                                                     <i class="fa fa-check fa-xl"></i>
                                                                 </div>
                                                                 <div class="media-body">
-                                                                    <p style="line-height:20px">El objetivo del diagnóstico de competencias es identificar las habilidades y actitudes que se vinculan con los perfiles profesionales de una carrera exitosa en <b>Salesforce.</b></p>
+                                                                    <p class="font-Saravekreg" style="line-height:20px">El objetivo del diagnóstico de competencias es identificar las habilidades y actitudes que se vinculan con los perfiles profesionales de una carrera exitosa en <b>Salesforce.</b></p>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -708,7 +708,7 @@ if (isset($_GET['c'])) {
                                                                     <i class="fa fa-check fa-xl"></i>
                                                                 </div>
                                                                 <div class="media-body">
-                                                                    <p style="line-height:20px">Al terminar este diagnóstico, te daremos una perspectiva con base en tus respuestas, para determinar si eres elegible o no para el curso.</p>
+                                                                    <p class="font-Saravekreg" style="line-height:20px">Al terminar este diagnóstico, te daremos una perspectiva con base en tus respuestas, para determinar si eres elegible o no para el curso.</p>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -743,7 +743,7 @@ if (isset($_GET['c'])) {
                                                                     <img src="<?= base_url('assets/course/img/dates-icon.svg') ?>" style="width:3.5rem">
                                                                 </div>
                                                                 <div class="col-md-8 pl-0 curso-nombre my-auto">
-                                                                    <h6 class="font-Novbold" style="line-height:22px;margin-bottom:0px;color:#333333"><b>Salesforce Administrator<br> <span class="font-Novbold color-sf font-Novbold">Octubre 2022</span></b></h6>
+                                                                    <h6 class="font-Saravekreg" style="line-height:22px;margin-bottom:0px;color:#333333"><b>Salesforce Administrator<br> <span class="font-Saravekreg color-sf">Octubre 2022</span></b></h6>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -759,7 +759,7 @@ if (isset($_GET['c'])) {
                                 <div id="tab3" class="tab-pane fade">
                                     <div class="row align-center pb-4 equal-cols">
                                         <div class="col-12 text-center pl-4 pr-4 pb-5 pt-2 mb-4">
-                                            <h6>Queremos que el pago sea la menor de tus preocupaciones y te enfoques en acelerar
+                                            <h6 class="font-Saravekreg">Queremos que el pago sea la menor de tus preocupaciones y te enfoques en acelerar
                                                 tu desarrollo profesional, por eso te ofrecemos diversas opciones de pago.
                                             </h6>
                                         </div>
@@ -767,7 +767,7 @@ if (isset($_GET['c'])) {
                                             <div class="card card-pagos">
                                                 <div class="card-body text-center">
                                                     <img src="<?= base_url('assets/course/img/pagos-icon.svg') ?>" alt="Thumb" style="width:4rem;padding-bottom:1rem">
-                                                    <p style="line-height:20px">Realiza tu pago de <span class="color-sf font-Novbold">forma segura</span> por medio de tu tarjeta de crédito o de débito.</p>
+                                                    <p class="font-Saravekreg" style="line-height:20px">Realiza tu pago de <span class="color-sf font-Saravekreg">forma segura</span> por medio de tu tarjeta de crédito o de débito.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -775,7 +775,7 @@ if (isset($_GET['c'])) {
                                             <div class="card card-pagos">
                                                 <div class="card-body text-center">
                                                     <img src="<?= base_url('assets/course/img/pagos-icon.svg') ?>" alt="Thumb" style="width:4rem;padding-bottom:1rem">
-                                                    <p style="line-height:20px">Difiere tu pago hasta en <span class="color-sf font-Novbold">24 mensualidades con cuota fija</span> utilizando tu tarjeta de crédito.</p>
+                                                    <p class="font-Saravekreg" style="line-height:20px">Difiere tu pago hasta en <span class="color-sf font-Saravekreg">24 mensualidades con cuota fija</span> utilizando tu tarjeta de crédito.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -783,7 +783,7 @@ if (isset($_GET['c'])) {
                                             <div class="card card-pagos">
                                                 <div class="card-body text-center">
                                                     <img src="<?= base_url('assets/course/img/pagos-icon.svg') ?>" alt="Thumb" style="width:4rem;padding-bottom:1rem">
-                                                    <p style="line-height:20px">Difiere tu pago hasta en <span class="color-sf font-Novbold">5 quincenas sin intereses.</span></p>
+                                                    <p class="font-Saravekreg" style="line-height:20px">Difiere tu pago hasta en <span class="color-sf font-Saravekreg">5 quincenas sin intereses.</span></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -794,13 +794,13 @@ if (isset($_GET['c'])) {
                                         <div class="col-lg-7 col-md-7  col-xs-12 info pb-3 my-auto">
                                             <div class="text-center">
                                                 <img class="pb-4" src="<?= base_url('assets/course/img/pc-costo.png') ?>" alt="Thumb">
-                                                <h4>Salesforce <span style="color:#B69256">Administrator</span></h4>
+                                                <h4 class="font-Saravekreg">Salesforce <span style="color:#B69256">Administrator</span></h4>
                                             </div>
                                         </div>
                                         <div class="col-lg-5 col-md-5  col-xs-12 info pb-3">
                                             <div class="about-inner-wrap pl-xl-4 pt-3 pt-lg-0 mt-lg-0">
                                                 <div class="section-title mb-0">
-                                                    <h2 style="color:#282827;padding-left:10px">MX$25,000</h2>
+                                                    <h2 class="font-Saravekreg" style="color:#282827;padding-left:10px">MX$25,000</h2>
                                                     <ul class="single-list-wrap">
                                                         <li class="single-list-inner style-check-box-grid costo my-auto">
                                                             <div class="media">
@@ -808,7 +808,7 @@ if (isset($_GET['c'])) {
                                                                     <i class="fa-solid fa-circle-check"></i>
                                                                 </div>
                                                                 <div class="media-body">
-                                                                    <h6>Acompañamiento de un experto</h6>
+                                                                    <h6 class="font-Saravekreg">Acompañamiento de un experto</h6>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -818,7 +818,7 @@ if (isset($_GET['c'])) {
                                                                     <i class="fa-solid fa-circle-check"></i>
                                                                 </div>
                                                                 <div class="media-body">
-                                                                    <h6>Examen de certificación</h6>
+                                                                    <h6 class="font-Saravekreg">Examen de certificación</h6>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -828,7 +828,7 @@ if (isset($_GET['c'])) {
                                                                     <i class="fa-solid fa-circle-check"></i>
                                                                 </div>
                                                                 <div class="media-body">
-                                                                    <h6>Acceso a comunidad EmTech</h6>
+                                                                    <h6 class="font-Saravekreg">Acceso a comunidad EmTech</h6>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -838,7 +838,7 @@ if (isset($_GET['c'])) {
                                                                     <i class="fa-solid fa-circle-check"></i>
                                                                 </div>
                                                                 <div class="media-body">
-                                                                    <h6>Garantía de empleo</h6>
+                                                                    <h6 class="font-Saravekreg">Garantía de empleo</h6>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -889,7 +889,7 @@ if (isset($_GET['c'])) {
                                 <a href="SalesforceBusinessAnalyst">
                                     <img src="<?= base_url('assets/course/img/analyst.png') ?>" alt="Thumb">
                                     <div class="date text-left">
-                                        <span class="font-Novbold"><strong>Próximamente <br></strong></span>
+                                        <span class="font-Saravekreg"><strong>Próximamente <br></strong></span>
                                     </div>
                                 </a>
                             </div>
@@ -913,7 +913,7 @@ if (isset($_GET['c'])) {
                                 <a href="SalesforceDeveloper">
                                     <img src="<?= base_url('assets/course/img/developer.png') ?>" alt="Thumb">
                                     <div class="date text-left">
-                                        <span class="font-Novbold"><strong>Octubre <br> 2022</strong></span>
+                                        <span class="font-Saravekreg"><strong>Octubre <br> 2022</strong></span>
                                     </div>
                                 </a>
                             </div>
